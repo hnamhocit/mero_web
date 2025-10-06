@@ -1,14 +1,19 @@
-"use client"
+"use client";
 
-import { HeroUIProvider } from "@heroui/react";
+import { HeroUIProvider, ToastProvider } from "@heroui/react";
 import { ReactNode } from "react";
+import ThemeProvider from "./ThemeProvider";
+import AuthProvider from "./AuthProvider";
 
 const Providers = ({ children }: { children: ReactNode }) => {
   return (
     <HeroUIProvider>
-      {children}
+      <ThemeProvider />
+      <ToastProvider />
+
+      <AuthProvider>{children}</AuthProvider>
     </HeroUIProvider>
   );
-}
+};
 
-export default Providers
+export default Providers;
