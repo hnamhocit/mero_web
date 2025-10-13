@@ -5,6 +5,8 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import { ReactNode } from "react";
 
 import Providers from "@/components/Providers";
+import Navbar from "@/components/Navbar";
+import Sidebar from "@/components/Sidebar";
 
 const font = Plus_Jakarta_Sans();
 
@@ -21,7 +23,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${font.className} antialiased`}>
-        <Providers>{children}</Providers>
+        <Providers>
+          <div className="h-screen flex overflow-hidden">
+            <Navbar />
+
+            <Sidebar />
+
+            <div className="flex-1 min-h-screen overflow-y-scroll no-scrollbar">
+              {children}
+            </div>
+          </div>
+        </Providers>
       </body>
     </html>
   );

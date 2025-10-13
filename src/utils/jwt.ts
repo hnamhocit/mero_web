@@ -1,7 +1,24 @@
+import { baseURL } from "@/config/api";
+import axios from "axios";
 import { jwtDecode } from "jwt-decode";
 
 export class JwtUtils {
   static keys = { at: "accessToken", rt: "refreshToken" };
+
+  static async refreshAccessToken() {
+    const { refreshToken } = JwtUtils.getTokens();
+    if (!refreshToken) throw new Error("No refresh token");
+
+    const { data } = await axios.post(`${baseURL}/auth/refresh`, {
+      refreshToken: `Bearer ${refreshToken}`,
+    });
+
+    const tokens = data.data;
+
+    JwtUtils.setTokens(tokens.accessToken, tokens.refreshToken);
+
+    return tokens.accessToken;
+  }
 
   static isTokenExpired(token: string): boolean {
     try {

@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-import { api, baseURL } from "@/config/api";
+import { api } from "@/config/api";
 import { IResponse, ITokens, IUser } from "@/interfaces";
 import { JwtUtils } from "@/utils";
 
@@ -8,22 +8,26 @@ interface UserStore {
   user: IUser | null;
   isLoading: boolean;
 
+  setUser: (user: IUser | null) => void;
   login: (data: any) => Promise<void>;
   register: (data: any) => Promise<void>;
   getProfile: () => Promise<void>;
   logout: () => Promise<void>;
+  verifyEmail: () => Promise<void>;
 }
 
-export const useUserStore = create<UserStore>((set) => ({
+export const useUserStore = create<UserStore>((set, get) => ({
   user: null,
   isLoading: false,
+
+  setUser: (user: IUser | null) => set({ user }),
 
   login: async (data) => {
     set({ isLoading: true });
 
     const { data: tokens }: IResponse<ITokens> = await api.post(
       "/auth/login",
-      data,
+      data
     );
 
     JwtUtils.setTokens(tokens.accessToken, tokens.refreshToken);
@@ -38,7 +42,7 @@ export const useUserStore = create<UserStore>((set) => ({
 
     const { data: tokens }: IResponse<ITokens> = await api.post(
       "/auth/register",
-      data,
+      data
     );
 
     JwtUtils.setTokens(tokens.accessToken, tokens.refreshToken);
@@ -59,9 +63,16 @@ export const useUserStore = create<UserStore>((set) => ({
   logout: async () => {
     set({ isLoading: true });
 
-    await api.post("/auth/logout");
+    await api.get("/auth/logout");
     JwtUtils.removeTokens();
 
     set({ user: null, isLoading: false });
+  },
+
+  verifyEmail: async () => {
+    await api.put("/users/me/email-verified");
+
+    const { user } = get();
+    set({ user: { ...user!, isEmailVerified: true } });
   },
 }));

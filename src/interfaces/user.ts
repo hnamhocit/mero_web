@@ -15,6 +15,9 @@ export interface IUser extends IDocument {
   photoId: string | null;
   backgroundURL: string | null;
   backgroundId: string | null;
+  verificationCode: string | null;
+  verificationCodeExpiresAt: Date | null;
+  isEmailVerified: boolean;
   role: Role;
   sex: Sex;
 

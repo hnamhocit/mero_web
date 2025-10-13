@@ -1,4 +1,5 @@
 import Auth from "@/components/Auth";
+import ConfirmEmail from "@/components/ComfirmEmail";
 import Loading from "@/components/Loading";
 import { useUserStore } from "@/stores";
 import { JwtUtils } from "@/utils";
@@ -12,7 +13,6 @@ const AuthProvider = ({ children }: { children: ReactNode }) => {
       typeof window !== "undefined" &&
       localStorage.getItem(JwtUtils.keys.at)
     ) {
-      console.log("Called get profile");
       getProfile();
     }
   }, []);
@@ -23,6 +23,10 @@ const AuthProvider = ({ children }: { children: ReactNode }) => {
 
   if (!user) {
     return <Auth />;
+  }
+
+  if (!user.isEmailVerified) {
+    return <ConfirmEmail />;
   }
 
   return children;
