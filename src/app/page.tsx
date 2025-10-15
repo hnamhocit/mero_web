@@ -1,139 +1,90 @@
 "use client";
 
-import { Button, Image, Input } from "@heroui/react";
-import {
-  BoltIcon,
-  FileImageIcon,
-  IdCardIcon,
-  PaperclipIcon,
-  PhoneIcon,
-  SendIcon,
-  StickerIcon,
-  VideoIcon,
-} from "lucide-react";
+import { useEffect, useState } from "react";
+import { motion } from "motion/react";
 
-const actions = [
-  {
-    label: "Stickers",
-    icon: StickerIcon,
-  },
-  {
-    label: "Files",
-    icon: PaperclipIcon,
-  },
-  {
-    label: "Photos",
-    icon: FileImageIcon,
-  },
-  {
-    label: "ID card",
-    icon: IdCardIcon,
-  },
-];
+import { getUserLocation, shortName } from "@/utils";
+import { useUserStore } from "@/stores";
+import { Image } from "@heroui/react";
 
 export default function Home() {
+  const { user } = useUserStore();
+  const [greeting, setGreeting] = useState("");
+  const [weather, setWeather] = useState<{
+    temperature: number;
+    weatherCode: number;
+  } | null>(null);
+
+  useEffect(() => {
+    const now = new Date();
+    const hours = now.getHours();
+    if (hours < 12) setGreeting("Good morning");
+    else if (hours < 18) setGreeting("Good afternoon");
+    else setGreeting("Good evening");
+
+    getUserLocation()
+      .then(({ lat, lon }) =>
+        fetch(`/api/weather?lat=${lat}&lon=${lon}`).then((r) => r.json())
+      )
+      .then((data) => {
+        if (data.temperature !== undefined) {
+          setWeather({
+            temperature: data.temperature,
+            weatherCode: data.weatherCode,
+          });
+        }
+      })
+      .catch((err) => {
+        console.log("Cannot fetch weather:", err);
+      });
+  }, []);
+
+  function weatherEmoji(code: number): string {
+    if (code === 0) return "☀️";
+    if (code < 50) return "🌤️";
+    return "🌧️";
+  }
+
   return (
-    <div className="h-screen relative bg-semidark">
-      <div className="sticky top-0 left-0 w-full h-16 border-b border-white/10 flex items-center justify-between px-4 bg-semilight">
-        <div className="flex items-center gap-3">
-          <Image
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP5ZUpPdZVKWaCvqmZulKqnEzDKffKbGQpvQ&s"
-            radius="full"
-            alt="Logo"
-            width={40}
-            height={40}
-            className="object-cover"
-          />
-
-          <div>
-            <div className="text-white line-clamp-1 font-semibold">Nhung</div>
-            <div className="text-sm line-clamp-1 text-white/50">
-              “Stars can’t shine without darkness.” ✨
-            </div>
+    <motion.div
+      className="h-screen flex flex-col items-center justify-center text-center bg-semidark text-white"
+      initial={{ opacity: 0, scale: 0.95 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+    >
+      <div className="space-y-7">
+        <div className="flex justify-center">
+          <div className="flex items-center justify-center h-16 w-16 rounded-2xl bg-white shadow-md">
+            <Image src="/logo.png" alt="Logo" width={40} height={40} />
           </div>
         </div>
 
-        <div className="flex items-center gap-3">
-          <Button isIconOnly variant="light">
-            <PhoneIcon size={20} />
-          </Button>
+        <div className="space-y-2">
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3 }}
+            className="text-xl font-semibold tracking-wide"
+          >
+            {greeting} {weather ? weatherEmoji(weather.weatherCode) : ""}
+          </motion.div>
 
-          <Button isIconOnly variant="light">
-            <VideoIcon size={20} />
-          </Button>
+          <div className="text-3xl font-bold">
+            How are you today, {shortName(user?.displayName as string)}?
+          </div>
 
-          <Button isIconOnly variant="light">
-            <BoltIcon size={20} />
-          </Button>
+          {weather && (
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.5 }}
+              className="text-lg text-gray-300"
+            >
+              {Math.round(weather.temperature)}°C{" "}
+            </motion.div>
+          )}
         </div>
       </div>
-
-      <div className="p-4 space-y-7 h-[calc(100vh-64px-96px)] overflow-y-scroll">
-        <div className="flex gap-3">
-          <Image
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP5ZUpPdZVKWaCvqmZulKqnEzDKffKbGQpvQ&s"
-            radius="full"
-            alt="Logo"
-            width={44}
-            height={44}
-            className="object-cover"
-          />
-
-          <div className="border border-white/10 bg-white text-black p-2 rounded-2xl min-w-24">
-            <div className="text-sm text-black/30 font-medium">Nhung</div>
-            <div>Chao xinnnn</div>
-          </div>
-        </div>
-
-        <div className="flex gap-3">
-          <Image
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP5ZUpPdZVKWaCvqmZulKqnEzDKffKbGQpvQ&s"
-            radius="full"
-            alt="Logo"
-            width={44}
-            height={44}
-            className="object-cover"
-          />
-
-          <div className="border border-white/10 bg-white text-black p-2 rounded-2xl min-w-24">
-            <div className="text-sm text-black/30 font-medium">Nhung</div>
-            <div>Chao xinnnn</div>
-          </div>
-        </div>
-
-        <div className="flex flex-row-reverse gap-3">
-          <Image
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP5ZUpPdZVKWaCvqmZulKqnEzDKffKbGQpvQ&s"
-            radius="full"
-            alt="Logo"
-            width={44}
-            height={44}
-            className="object-cover"
-          />
-
-          <div className="border border-white/10 bg-primary text-white p-2 rounded-2xl min-w-24">
-            <div>Chao xinnnn</div>
-          </div>
-        </div>
-      </div>
-
-      <div className="absolute bottom-0 space-y-1 left-0 h-24 border-t border-white/10 w-full bg-semilight p-2">
-        <div className="flex items-center gap-3">
-          {actions.map((action) => (
-            <Button key={action.label} isIconOnly size="sm" variant="light">
-              {<action.icon size={18} />}
-            </Button>
-          ))}
-        </div>
-
-        <div className="flex items-center gap-3">
-          <Input placeholder="Enter here..." />
-
-          <Button isIconOnly color="secondary">
-            <SendIcon size={20} />
-          </Button>
-        </div>
-      </div>
-    </div>
+    </motion.div>
   );
 }

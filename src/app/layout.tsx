@@ -1,4 +1,5 @@
 import "./globals.css";
+import "@radix-ui/themes/styles.css";
 
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
@@ -29,7 +30,7 @@ export default function RootLayout({
 
             <Sidebar />
 
-            <div className="flex-1 min-h-screen overflow-y-scroll no-scrollbar">
+            <div className="flex-1 relative min-h-screen overflow-y-scroll no-scrollbar">
               {children}
             </div>
           </div>

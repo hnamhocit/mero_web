@@ -1,0 +1,1786 @@
+[
+  {
+    "slug": "e0-6-atm-sign",
+    "character": "\ud83c\udfe7",
+    "unicodeName": "E0.6 ATM sign",
+    "codePoint": "1F3E7",
+    "group": "symbols",
+    "subGroup": "transport-sign"
+  },
+  {
+    "slug": "e1-0-litter-in-bin-sign",
+    "character": "\ud83d\udeae",
+    "unicodeName": "E1.0 litter in bin sign",
+    "codePoint": "1F6AE",
+    "group": "symbols",
+    "subGroup": "transport-sign"
+  },
+  {
+    "slug": "e1-0-potable-water",
+    "character": "\ud83d\udeb0",
+    "unicodeName": "E1.0 potable water",
+    "codePoint": "1F6B0",
+    "group": "symbols",
+    "subGroup": "transport-sign"
+  },
+  {
+    "slug": "e0-6-wheelchair-symbol",
+    "character": "\u267f",
+    "unicodeName": "E0.6 wheelchair symbol",
+    "codePoint": "267F",
+    "group": "symbols",
+    "subGroup": "transport-sign"
+  },
+  {
+    "slug": "e0-6-men-s-room",
+    "character": "\ud83d\udeb9",
+    "unicodeName": "E0.6 men\u2019s room",
+    "codePoint": "1F6B9",
+    "group": "symbols",
+    "subGroup": "transport-sign"
+  },
+  {
+    "slug": "e0-6-women-s-room",
+    "character": "\ud83d\udeba",
+    "unicodeName": "E0.6 women\u2019s room",
+    "codePoint": "1F6BA",
+    "group": "symbols",
+    "subGroup": "transport-sign"
+  },
+  {
+    "slug": "e0-6-restroom",
+    "character": "\ud83d\udebb",
+    "unicodeName": "E0.6 restroom",
+    "codePoint": "1F6BB",
+    "group": "symbols",
+    "subGroup": "transport-sign"
+  },
+  {
+    "slug": "e0-6-baby-symbol",
+    "character": "\ud83d\udebc",
+    "unicodeName": "E0.6 baby symbol",
+    "codePoint": "1F6BC",
+    "group": "symbols",
+    "subGroup": "transport-sign"
+  },
+  {
+    "slug": "e0-6-water-closet",
+    "character": "\ud83d\udebe",
+    "unicodeName": "E0.6 water closet",
+    "codePoint": "1F6BE",
+    "group": "symbols",
+    "subGroup": "transport-sign"
+  },
+  {
+    "slug": "e1-0-passport-control",
+    "character": "\ud83d\udec2",
+    "unicodeName": "E1.0 passport control",
+    "codePoint": "1F6C2",
+    "group": "symbols",
+    "subGroup": "transport-sign"
+  },
+  {
+    "slug": "e1-0-customs",
+    "character": "\ud83d\udec3",
+    "unicodeName": "E1.0 customs",
+    "codePoint": "1F6C3",
+    "group": "symbols",
+    "subGroup": "transport-sign"
+  },
+  {
+    "slug": "e1-0-baggage-claim",
+    "character": "\ud83d\udec4",
+    "unicodeName": "E1.0 baggage claim",
+    "codePoint": "1F6C4",
+    "group": "symbols",
+    "subGroup": "transport-sign"
+  },
+  {
+    "slug": "e1-0-left-luggage",
+    "character": "\ud83d\udec5",
+    "unicodeName": "E1.0 left luggage",
+    "codePoint": "1F6C5",
+    "group": "symbols",
+    "subGroup": "transport-sign"
+  },
+  {
+    "slug": "e0-6-warning",
+    "character": "\u26a0\ufe0f",
+    "unicodeName": "E0.6 warning",
+    "codePoint": "26A0 FE0F",
+    "group": "symbols",
+    "subGroup": "warning"
+  },
+  {
+    "slug": "e1-0-children-crossing",
+    "character": "\ud83d\udeb8",
+    "unicodeName": "E1.0 children crossing",
+    "codePoint": "1F6B8",
+    "group": "symbols",
+    "subGroup": "warning"
+  },
+  {
+    "slug": "e0-6-no-entry",
+    "character": "\u26d4",
+    "unicodeName": "E0.6 no entry",
+    "codePoint": "26D4",
+    "group": "symbols",
+    "subGroup": "warning"
+  },
+  {
+    "slug": "e0-6-prohibited",
+    "character": "\ud83d\udeab",
+    "unicodeName": "E0.6 prohibited",
+    "codePoint": "1F6AB",
+    "group": "symbols",
+    "subGroup": "warning"
+  },
+  {
+    "slug": "e1-0-no-bicycles",
+    "character": "\ud83d\udeb3",
+    "unicodeName": "E1.0 no bicycles",
+    "codePoint": "1F6B3",
+    "group": "symbols",
+    "subGroup": "warning"
+  },
+  {
+    "slug": "e0-6-no-smoking",
+    "character": "\ud83d\udead",
+    "unicodeName": "E0.6 no smoking",
+    "codePoint": "1F6AD",
+    "group": "symbols",
+    "subGroup": "warning"
+  },
+  {
+    "slug": "e1-0-no-littering",
+    "character": "\ud83d\udeaf",
+    "unicodeName": "E1.0 no littering",
+    "codePoint": "1F6AF",
+    "group": "symbols",
+    "subGroup": "warning"
+  },
+  {
+    "slug": "e1-0-non-potable-water",
+    "character": "\ud83d\udeb1",
+    "unicodeName": "E1.0 non-potable water",
+    "codePoint": "1F6B1",
+    "group": "symbols",
+    "subGroup": "warning"
+  },
+  {
+    "slug": "e1-0-no-pedestrians",
+    "character": "\ud83d\udeb7",
+    "unicodeName": "E1.0 no pedestrians",
+    "codePoint": "1F6B7",
+    "group": "symbols",
+    "subGroup": "warning"
+  },
+  {
+    "slug": "e1-0-no-mobile-phones",
+    "character": "\ud83d\udcf5",
+    "unicodeName": "E1.0 no mobile phones",
+    "codePoint": "1F4F5",
+    "group": "symbols",
+    "subGroup": "warning"
+  },
+  {
+    "slug": "e0-6-no-one-under-eighteen",
+    "character": "\ud83d\udd1e",
+    "unicodeName": "E0.6 no one under eighteen",
+    "codePoint": "1F51E",
+    "group": "symbols",
+    "subGroup": "warning"
+  },
+  {
+    "slug": "e1-0-radioactive",
+    "character": "\u2622\ufe0f",
+    "unicodeName": "E1.0 radioactive",
+    "codePoint": "2622 FE0F",
+    "group": "symbols",
+    "subGroup": "warning"
+  },
+  {
+    "slug": "e1-0-biohazard",
+    "character": "\u2623\ufe0f",
+    "unicodeName": "E1.0 biohazard",
+    "codePoint": "2623 FE0F",
+    "group": "symbols",
+    "subGroup": "warning"
+  },
+  {
+    "slug": "e0-6-up-arrow",
+    "character": "\u2b06\ufe0f",
+    "unicodeName": "E0.6 up arrow",
+    "codePoint": "2B06 FE0F",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e0-6-up-right-arrow",
+    "character": "\u2197\ufe0f",
+    "unicodeName": "E0.6 up-right arrow",
+    "codePoint": "2197 FE0F",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e0-6-right-arrow",
+    "character": "\u27a1\ufe0f",
+    "unicodeName": "E0.6 right arrow",
+    "codePoint": "27A1 FE0F",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e0-6-down-right-arrow",
+    "character": "\u2198\ufe0f",
+    "unicodeName": "E0.6 down-right arrow",
+    "codePoint": "2198 FE0F",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e0-6-down-arrow",
+    "character": "\u2b07\ufe0f",
+    "unicodeName": "E0.6 down arrow",
+    "codePoint": "2B07 FE0F",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e0-6-down-left-arrow",
+    "character": "\u2199\ufe0f",
+    "unicodeName": "E0.6 down-left arrow",
+    "codePoint": "2199 FE0F",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e0-6-left-arrow",
+    "character": "\u2b05\ufe0f",
+    "unicodeName": "E0.6 left arrow",
+    "codePoint": "2B05 FE0F",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e0-6-up-left-arrow",
+    "character": "\u2196\ufe0f",
+    "unicodeName": "E0.6 up-left arrow",
+    "codePoint": "2196 FE0F",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e0-6-up-down-arrow",
+    "character": "\u2195\ufe0f",
+    "unicodeName": "E0.6 up-down arrow",
+    "codePoint": "2195 FE0F",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e0-6-left-right-arrow",
+    "character": "\u2194\ufe0f",
+    "unicodeName": "E0.6 left-right arrow",
+    "codePoint": "2194 FE0F",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e0-6-right-arrow-curving-left",
+    "character": "\u21a9\ufe0f",
+    "unicodeName": "E0.6 right arrow curving left",
+    "codePoint": "21A9 FE0F",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e0-6-left-arrow-curving-right",
+    "character": "\u21aa\ufe0f",
+    "unicodeName": "E0.6 left arrow curving right",
+    "codePoint": "21AA FE0F",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e0-6-right-arrow-curving-up",
+    "character": "\u2934\ufe0f",
+    "unicodeName": "E0.6 right arrow curving up",
+    "codePoint": "2934 FE0F",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e0-6-right-arrow-curving-down",
+    "character": "\u2935\ufe0f",
+    "unicodeName": "E0.6 right arrow curving down",
+    "codePoint": "2935 FE0F",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e0-6-clockwise-vertical-arrows",
+    "character": "\ud83d\udd03",
+    "unicodeName": "E0.6 clockwise vertical arrows",
+    "codePoint": "1F503",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e1-0-counterclockwise-arrows-button",
+    "character": "\ud83d\udd04",
+    "unicodeName": "E1.0 counterclockwise arrows button",
+    "codePoint": "1F504",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e0-6-back-arrow",
+    "character": "\ud83d\udd19",
+    "unicodeName": "E0.6 BACK arrow",
+    "codePoint": "1F519",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e0-6-end-arrow",
+    "character": "\ud83d\udd1a",
+    "unicodeName": "E0.6 END arrow",
+    "codePoint": "1F51A",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e0-6-on-arrow",
+    "character": "\ud83d\udd1b",
+    "unicodeName": "E0.6 ON! arrow",
+    "codePoint": "1F51B",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e0-6-soon-arrow",
+    "character": "\ud83d\udd1c",
+    "unicodeName": "E0.6 SOON arrow",
+    "codePoint": "1F51C",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e0-6-top-arrow",
+    "character": "\ud83d\udd1d",
+    "unicodeName": "E0.6 TOP arrow",
+    "codePoint": "1F51D",
+    "group": "symbols",
+    "subGroup": "arrow"
+  },
+  {
+    "slug": "e1-0-place-of-worship",
+    "character": "\ud83d\uded0",
+    "unicodeName": "E1.0 place of worship",
+    "codePoint": "1F6D0",
+    "group": "symbols",
+    "subGroup": "religion"
+  },
+  {
+    "slug": "e1-0-atom-symbol",
+    "character": "\u269b\ufe0f",
+    "unicodeName": "E1.0 atom symbol",
+    "codePoint": "269B FE0F",
+    "group": "symbols",
+    "subGroup": "religion"
+  },
+  {
+    "slug": "e0-7-om",
+    "character": "\ud83d\udd49\ufe0f",
+    "unicodeName": "E0.7 om",
+    "codePoint": "1F549 FE0F",
+    "group": "symbols",
+    "subGroup": "religion"
+  },
+  {
+    "slug": "e0-7-star-of-david",
+    "character": "\u2721\ufe0f",
+    "unicodeName": "E0.7 star of David",
+    "codePoint": "2721 FE0F",
+    "group": "symbols",
+    "subGroup": "religion"
+  },
+  {
+    "slug": "e0-7-wheel-of-dharma",
+    "character": "\u2638\ufe0f",
+    "unicodeName": "E0.7 wheel of dharma",
+    "codePoint": "2638 FE0F",
+    "group": "symbols",
+    "subGroup": "religion"
+  },
+  {
+    "slug": "e0-7-yin-yang",
+    "character": "\u262f\ufe0f",
+    "unicodeName": "E0.7 yin yang",
+    "codePoint": "262F FE0F",
+    "group": "symbols",
+    "subGroup": "religion"
+  },
+  {
+    "slug": "e0-7-latin-cross",
+    "character": "\u271d\ufe0f",
+    "unicodeName": "E0.7 latin cross",
+    "codePoint": "271D FE0F",
+    "group": "symbols",
+    "subGroup": "religion"
+  },
+  {
+    "slug": "e1-0-orthodox-cross",
+    "character": "\u2626\ufe0f",
+    "unicodeName": "E1.0 orthodox cross",
+    "codePoint": "2626 FE0F",
+    "group": "symbols",
+    "subGroup": "religion"
+  },
+  {
+    "slug": "e0-7-star-and-crescent",
+    "character": "\u262a\ufe0f",
+    "unicodeName": "E0.7 star and crescent",
+    "codePoint": "262A FE0F",
+    "group": "symbols",
+    "subGroup": "religion"
+  },
+  {
+    "slug": "e1-0-peace-symbol",
+    "character": "\u262e\ufe0f",
+    "unicodeName": "E1.0 peace symbol",
+    "codePoint": "262E FE0F",
+    "group": "symbols",
+    "subGroup": "religion"
+  },
+  {
+    "slug": "e1-0-menorah",
+    "character": "\ud83d\udd4e",
+    "unicodeName": "E1.0 menorah",
+    "codePoint": "1F54E",
+    "group": "symbols",
+    "subGroup": "religion"
+  },
+  {
+    "slug": "e0-6-dotted-six-pointed-star",
+    "character": "\ud83d\udd2f",
+    "unicodeName": "E0.6 dotted six-pointed star",
+    "codePoint": "1F52F",
+    "group": "symbols",
+    "subGroup": "religion"
+  },
+  {
+    "slug": "e15-0-khanda",
+    "character": "\ud83e\udeaf",
+    "unicodeName": "E15.0 khanda",
+    "codePoint": "1FAAF",
+    "group": "symbols",
+    "subGroup": "religion"
+  },
+  {
+    "slug": "e0-6-aries",
+    "character": "\u2648",
+    "unicodeName": "E0.6 Aries",
+    "codePoint": "2648",
+    "group": "symbols",
+    "subGroup": "zodiac"
+  },
+  {
+    "slug": "e0-6-taurus",
+    "character": "\u2649",
+    "unicodeName": "E0.6 Taurus",
+    "codePoint": "2649",
+    "group": "symbols",
+    "subGroup": "zodiac"
+  },
+  {
+    "slug": "e0-6-gemini",
+    "character": "\u264a",
+    "unicodeName": "E0.6 Gemini",
+    "codePoint": "264A",
+    "group": "symbols",
+    "subGroup": "zodiac"
+  },
+  {
+    "slug": "e0-6-cancer",
+    "character": "\u264b",
+    "unicodeName": "E0.6 Cancer",
+    "codePoint": "264B",
+    "group": "symbols",
+    "subGroup": "zodiac"
+  },
+  {
+    "slug": "e0-6-leo",
+    "character": "\u264c",
+    "unicodeName": "E0.6 Leo",
+    "codePoint": "264C",
+    "group": "symbols",
+    "subGroup": "zodiac"
+  },
+  {
+    "slug": "e0-6-virgo",
+    "character": "\u264d",
+    "unicodeName": "E0.6 Virgo",
+    "codePoint": "264D",
+    "group": "symbols",
+    "subGroup": "zodiac"
+  },
+  {
+    "slug": "e0-6-libra",
+    "character": "\u264e",
+    "unicodeName": "E0.6 Libra",
+    "codePoint": "264E",
+    "group": "symbols",
+    "subGroup": "zodiac"
+  },
+  {
+    "slug": "e0-6-scorpio",
+    "character": "\u264f",
+    "unicodeName": "E0.6 Scorpio",
+    "codePoint": "264F",
+    "group": "symbols",
+    "subGroup": "zodiac"
+  },
+  {
+    "slug": "e0-6-sagittarius",
+    "character": "\u2650",
+    "unicodeName": "E0.6 Sagittarius",
+    "codePoint": "2650",
+    "group": "symbols",
+    "subGroup": "zodiac"
+  },
+  {
+    "slug": "e0-6-capricorn",
+    "character": "\u2651",
+    "unicodeName": "E0.6 Capricorn",
+    "codePoint": "2651",
+    "group": "symbols",
+    "subGroup": "zodiac"
+  },
+  {
+    "slug": "e0-6-aquarius",
+    "character": "\u2652",
+    "unicodeName": "E0.6 Aquarius",
+    "codePoint": "2652",
+    "group": "symbols",
+    "subGroup": "zodiac"
+  },
+  {
+    "slug": "e0-6-pisces",
+    "character": "\u2653",
+    "unicodeName": "E0.6 Pisces",
+    "codePoint": "2653",
+    "group": "symbols",
+    "subGroup": "zodiac"
+  },
+  {
+    "slug": "e0-6-ophiuchus",
+    "character": "\u26ce",
+    "unicodeName": "E0.6 Ophiuchus",
+    "codePoint": "26CE",
+    "group": "symbols",
+    "subGroup": "zodiac"
+  },
+  {
+    "slug": "e1-0-shuffle-tracks-button",
+    "character": "\ud83d\udd00",
+    "unicodeName": "E1.0 shuffle tracks button",
+    "codePoint": "1F500",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e1-0-repeat-button",
+    "character": "\ud83d\udd01",
+    "unicodeName": "E1.0 repeat button",
+    "codePoint": "1F501",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e1-0-repeat-single-button",
+    "character": "\ud83d\udd02",
+    "unicodeName": "E1.0 repeat single button",
+    "codePoint": "1F502",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e0-6-play-button",
+    "character": "\u25b6\ufe0f",
+    "unicodeName": "E0.6 play button",
+    "codePoint": "25B6 FE0F",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e0-6-fast-forward-button",
+    "character": "\u23e9",
+    "unicodeName": "E0.6 fast-forward button",
+    "codePoint": "23E9",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e0-7-next-track-button",
+    "character": "\u23ed\ufe0f",
+    "unicodeName": "E0.7 next track button",
+    "codePoint": "23ED FE0F",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e1-0-play-or-pause-button",
+    "character": "\u23ef\ufe0f",
+    "unicodeName": "E1.0 play or pause button",
+    "codePoint": "23EF FE0F",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e0-6-reverse-button",
+    "character": "\u25c0\ufe0f",
+    "unicodeName": "E0.6 reverse button",
+    "codePoint": "25C0 FE0F",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e0-6-fast-reverse-button",
+    "character": "\u23ea",
+    "unicodeName": "E0.6 fast reverse button",
+    "codePoint": "23EA",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e0-7-last-track-button",
+    "character": "\u23ee\ufe0f",
+    "unicodeName": "E0.7 last track button",
+    "codePoint": "23EE FE0F",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e0-6-upwards-button",
+    "character": "\ud83d\udd3c",
+    "unicodeName": "E0.6 upwards button",
+    "codePoint": "1F53C",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e0-6-fast-up-button",
+    "character": "\u23eb",
+    "unicodeName": "E0.6 fast up button",
+    "codePoint": "23EB",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e0-6-downwards-button",
+    "character": "\ud83d\udd3d",
+    "unicodeName": "E0.6 downwards button",
+    "codePoint": "1F53D",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e0-6-fast-down-button",
+    "character": "\u23ec",
+    "unicodeName": "E0.6 fast down button",
+    "codePoint": "23EC",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e0-7-pause-button",
+    "character": "\u23f8\ufe0f",
+    "unicodeName": "E0.7 pause button",
+    "codePoint": "23F8 FE0F",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e0-7-stop-button",
+    "character": "\u23f9\ufe0f",
+    "unicodeName": "E0.7 stop button",
+    "codePoint": "23F9 FE0F",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e0-7-record-button",
+    "character": "\u23fa\ufe0f",
+    "unicodeName": "E0.7 record button",
+    "codePoint": "23FA FE0F",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e1-0-eject-button",
+    "character": "\u23cf\ufe0f",
+    "unicodeName": "E1.0 eject button",
+    "codePoint": "23CF FE0F",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e0-6-cinema",
+    "character": "\ud83c\udfa6",
+    "unicodeName": "E0.6 cinema",
+    "codePoint": "1F3A6",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e1-0-dim-button",
+    "character": "\ud83d\udd05",
+    "unicodeName": "E1.0 dim button",
+    "codePoint": "1F505",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e1-0-bright-button",
+    "character": "\ud83d\udd06",
+    "unicodeName": "E1.0 bright button",
+    "codePoint": "1F506",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e0-6-antenna-bars",
+    "character": "\ud83d\udcf6",
+    "unicodeName": "E0.6 antenna bars",
+    "codePoint": "1F4F6",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e15-0-wireless",
+    "character": "\ud83d\udedc",
+    "unicodeName": "E15.0 wireless",
+    "codePoint": "1F6DC",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e0-6-vibration-mode",
+    "character": "\ud83d\udcf3",
+    "unicodeName": "E0.6 vibration mode",
+    "codePoint": "1F4F3",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e0-6-mobile-phone-off",
+    "character": "\ud83d\udcf4",
+    "unicodeName": "E0.6 mobile phone off",
+    "codePoint": "1F4F4",
+    "group": "symbols",
+    "subGroup": "av-symbol"
+  },
+  {
+    "slug": "e4-0-female-sign",
+    "character": "\u2640\ufe0f",
+    "unicodeName": "E4.0 female sign",
+    "codePoint": "2640 FE0F",
+    "group": "symbols",
+    "subGroup": "gender"
+  },
+  {
+    "slug": "e4-0-male-sign",
+    "character": "\u2642\ufe0f",
+    "unicodeName": "E4.0 male sign",
+    "codePoint": "2642 FE0F",
+    "group": "symbols",
+    "subGroup": "gender"
+  },
+  {
+    "slug": "e13-0-transgender-symbol",
+    "character": "\u26a7\ufe0f",
+    "unicodeName": "E13.0 transgender symbol",
+    "codePoint": "26A7 FE0F",
+    "group": "symbols",
+    "subGroup": "gender"
+  },
+  {
+    "slug": "e0-6-multiply",
+    "character": "\u2716\ufe0f",
+    "unicodeName": "E0.6 multiply",
+    "codePoint": "2716 FE0F",
+    "group": "symbols",
+    "subGroup": "math"
+  },
+  {
+    "slug": "e0-6-plus",
+    "character": "\u2795",
+    "unicodeName": "E0.6 plus",
+    "codePoint": "2795",
+    "group": "symbols",
+    "subGroup": "math"
+  },
+  {
+    "slug": "e0-6-minus",
+    "character": "\u2796",
+    "unicodeName": "E0.6 minus",
+    "codePoint": "2796",
+    "group": "symbols",
+    "subGroup": "math"
+  },
+  {
+    "slug": "e0-6-divide",
+    "character": "\u2797",
+    "unicodeName": "E0.6 divide",
+    "codePoint": "2797",
+    "group": "symbols",
+    "subGroup": "math"
+  },
+  {
+    "slug": "e14-0-heavy-equals-sign",
+    "character": "\ud83d\udff0",
+    "unicodeName": "E14.0 heavy equals sign",
+    "codePoint": "1F7F0",
+    "group": "symbols",
+    "subGroup": "math"
+  },
+  {
+    "slug": "e11-0-infinity",
+    "character": "\u267e\ufe0f",
+    "unicodeName": "E11.0 infinity",
+    "codePoint": "267E FE0F",
+    "group": "symbols",
+    "subGroup": "math"
+  },
+  {
+    "slug": "e0-6-double-exclamation-mark",
+    "character": "\u203c\ufe0f",
+    "unicodeName": "E0.6 double exclamation mark",
+    "codePoint": "203C FE0F",
+    "group": "symbols",
+    "subGroup": "punctuation"
+  },
+  {
+    "slug": "e0-6-exclamation-question-mark",
+    "character": "\u2049\ufe0f",
+    "unicodeName": "E0.6 exclamation question mark",
+    "codePoint": "2049 FE0F",
+    "group": "symbols",
+    "subGroup": "punctuation"
+  },
+  {
+    "slug": "e0-6-red-question-mark",
+    "character": "\u2753",
+    "unicodeName": "E0.6 red question mark",
+    "codePoint": "2753",
+    "group": "symbols",
+    "subGroup": "punctuation"
+  },
+  {
+    "slug": "e0-6-white-question-mark",
+    "character": "\u2754",
+    "unicodeName": "E0.6 white question mark",
+    "codePoint": "2754",
+    "group": "symbols",
+    "subGroup": "punctuation"
+  },
+  {
+    "slug": "e0-6-white-exclamation-mark",
+    "character": "\u2755",
+    "unicodeName": "E0.6 white exclamation mark",
+    "codePoint": "2755",
+    "group": "symbols",
+    "subGroup": "punctuation"
+  },
+  {
+    "slug": "e0-6-red-exclamation-mark",
+    "character": "\u2757",
+    "unicodeName": "E0.6 red exclamation mark",
+    "codePoint": "2757",
+    "group": "symbols",
+    "subGroup": "punctuation"
+  },
+  {
+    "slug": "e0-6-wavy-dash",
+    "character": "\u3030\ufe0f",
+    "unicodeName": "E0.6 wavy dash",
+    "codePoint": "3030 FE0F",
+    "group": "symbols",
+    "subGroup": "punctuation"
+  },
+  {
+    "slug": "e0-6-currency-exchange",
+    "character": "\ud83d\udcb1",
+    "unicodeName": "E0.6 currency exchange",
+    "codePoint": "1F4B1",
+    "group": "symbols",
+    "subGroup": "currency"
+  },
+  {
+    "slug": "e0-6-heavy-dollar-sign",
+    "character": "\ud83d\udcb2",
+    "unicodeName": "E0.6 heavy dollar sign",
+    "codePoint": "1F4B2",
+    "group": "symbols",
+    "subGroup": "currency"
+  },
+  {
+    "slug": "e4-0-medical-symbol",
+    "character": "\u2695\ufe0f",
+    "unicodeName": "E4.0 medical symbol",
+    "codePoint": "2695 FE0F",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e0-6-recycling-symbol",
+    "character": "\u267b\ufe0f",
+    "unicodeName": "E0.6 recycling symbol",
+    "codePoint": "267B FE0F",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e1-0-fleur-de-lis",
+    "character": "\u269c\ufe0f",
+    "unicodeName": "E1.0 fleur-de-lis",
+    "codePoint": "269C FE0F",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e0-6-trident-emblem",
+    "character": "\ud83d\udd31",
+    "unicodeName": "E0.6 trident emblem",
+    "codePoint": "1F531",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e0-6-name-badge",
+    "character": "\ud83d\udcdb",
+    "unicodeName": "E0.6 name badge",
+    "codePoint": "1F4DB",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e0-6-japanese-symbol-for-beginner",
+    "character": "\ud83d\udd30",
+    "unicodeName": "E0.6 Japanese symbol for beginner",
+    "codePoint": "1F530",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e0-6-hollow-red-circle",
+    "character": "\u2b55",
+    "unicodeName": "E0.6 hollow red circle",
+    "codePoint": "2B55",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e0-6-check-mark-button",
+    "character": "\u2705",
+    "unicodeName": "E0.6 check mark button",
+    "codePoint": "2705",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e0-6-check-box-with-check",
+    "character": "\u2611\ufe0f",
+    "unicodeName": "E0.6 check box with check",
+    "codePoint": "2611 FE0F",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e0-6-check-mark",
+    "character": "\u2714\ufe0f",
+    "unicodeName": "E0.6 check mark",
+    "codePoint": "2714 FE0F",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e0-6-cross-mark",
+    "character": "\u274c",
+    "unicodeName": "E0.6 cross mark",
+    "codePoint": "274C",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e0-6-cross-mark-button",
+    "character": "\u274e",
+    "unicodeName": "E0.6 cross mark button",
+    "codePoint": "274E",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e0-6-curly-loop",
+    "character": "\u27b0",
+    "unicodeName": "E0.6 curly loop",
+    "codePoint": "27B0",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e1-0-double-curly-loop",
+    "character": "\u27bf",
+    "unicodeName": "E1.0 double curly loop",
+    "codePoint": "27BF",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e0-6-part-alternation-mark",
+    "character": "\u303d\ufe0f",
+    "unicodeName": "E0.6 part alternation mark",
+    "codePoint": "303D FE0F",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e0-6-eight-spoked-asterisk",
+    "character": "\u2733\ufe0f",
+    "unicodeName": "E0.6 eight-spoked asterisk",
+    "codePoint": "2733 FE0F",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e0-6-eight-pointed-star",
+    "character": "\u2734\ufe0f",
+    "unicodeName": "E0.6 eight-pointed star",
+    "codePoint": "2734 FE0F",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e0-6-sparkle",
+    "character": "\u2747\ufe0f",
+    "unicodeName": "E0.6 sparkle",
+    "codePoint": "2747 FE0F",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e0-6-copyright",
+    "character": "\u00a9\ufe0f",
+    "unicodeName": "E0.6 copyright",
+    "codePoint": "00A9 FE0F",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e0-6-registered",
+    "character": "\u00ae\ufe0f",
+    "unicodeName": "E0.6 registered",
+    "codePoint": "00AE FE0F",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e0-6-trade-mark",
+    "character": "\u2122\ufe0f",
+    "unicodeName": "E0.6 trade mark",
+    "codePoint": "2122 FE0F",
+    "group": "symbols",
+    "subGroup": "other-symbol"
+  },
+  {
+    "slug": "e0-6-keycap",
+    "character": "#\ufe0f\u20e3",
+    "unicodeName": "E0.6 keycap: #",
+    "codePoint": "0023 FE0F 20E3",
+    "group": "symbols",
+    "subGroup": "keycap"
+  },
+  {
+    "slug": "e2-0-keycap",
+    "character": "*\ufe0f\u20e3",
+    "unicodeName": "E2.0 keycap: *",
+    "codePoint": "002A FE0F 20E3",
+    "group": "symbols",
+    "subGroup": "keycap"
+  },
+  {
+    "slug": "e0-6-keycap-0",
+    "character": "0\ufe0f\u20e3",
+    "unicodeName": "E0.6 keycap: 0",
+    "codePoint": "0030 FE0F 20E3",
+    "group": "symbols",
+    "subGroup": "keycap"
+  },
+  {
+    "slug": "e0-6-keycap-1",
+    "character": "1\ufe0f\u20e3",
+    "unicodeName": "E0.6 keycap: 1",
+    "codePoint": "0031 FE0F 20E3",
+    "group": "symbols",
+    "subGroup": "keycap"
+  },
+  {
+    "slug": "e0-6-keycap-2",
+    "character": "2\ufe0f\u20e3",
+    "unicodeName": "E0.6 keycap: 2",
+    "codePoint": "0032 FE0F 20E3",
+    "group": "symbols",
+    "subGroup": "keycap"
+  },
+  {
+    "slug": "e0-6-keycap-3",
+    "character": "3\ufe0f\u20e3",
+    "unicodeName": "E0.6 keycap: 3",
+    "codePoint": "0033 FE0F 20E3",
+    "group": "symbols",
+    "subGroup": "keycap"
+  },
+  {
+    "slug": "e0-6-keycap-4",
+    "character": "4\ufe0f\u20e3",
+    "unicodeName": "E0.6 keycap: 4",
+    "codePoint": "0034 FE0F 20E3",
+    "group": "symbols",
+    "subGroup": "keycap"
+  },
+  {
+    "slug": "e0-6-keycap-5",
+    "character": "5\ufe0f\u20e3",
+    "unicodeName": "E0.6 keycap: 5",
+    "codePoint": "0035 FE0F 20E3",
+    "group": "symbols",
+    "subGroup": "keycap"
+  },
+  {
+    "slug": "e0-6-keycap-6",
+    "character": "6\ufe0f\u20e3",
+    "unicodeName": "E0.6 keycap: 6",
+    "codePoint": "0036 FE0F 20E3",
+    "group": "symbols",
+    "subGroup": "keycap"
+  },
+  {
+    "slug": "e0-6-keycap-7",
+    "character": "7\ufe0f\u20e3",
+    "unicodeName": "E0.6 keycap: 7",
+    "codePoint": "0037 FE0F 20E3",
+    "group": "symbols",
+    "subGroup": "keycap"
+  },
+  {
+    "slug": "e0-6-keycap-8",
+    "character": "8\ufe0f\u20e3",
+    "unicodeName": "E0.6 keycap: 8",
+    "codePoint": "0038 FE0F 20E3",
+    "group": "symbols",
+    "subGroup": "keycap"
+  },
+  {
+    "slug": "e0-6-keycap-9",
+    "character": "9\ufe0f\u20e3",
+    "unicodeName": "E0.6 keycap: 9",
+    "codePoint": "0039 FE0F 20E3",
+    "group": "symbols",
+    "subGroup": "keycap"
+  },
+  {
+    "slug": "e0-6-keycap-10",
+    "character": "\ud83d\udd1f",
+    "unicodeName": "E0.6 keycap: 10",
+    "codePoint": "1F51F",
+    "group": "symbols",
+    "subGroup": "keycap"
+  },
+  {
+    "slug": "e0-6-input-latin-uppercase",
+    "character": "\ud83d\udd20",
+    "unicodeName": "E0.6 input latin uppercase",
+    "codePoint": "1F520",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-input-latin-lowercase",
+    "character": "\ud83d\udd21",
+    "unicodeName": "E0.6 input latin lowercase",
+    "codePoint": "1F521",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-input-numbers",
+    "character": "\ud83d\udd22",
+    "unicodeName": "E0.6 input numbers",
+    "codePoint": "1F522",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-input-symbols",
+    "character": "\ud83d\udd23",
+    "unicodeName": "E0.6 input symbols",
+    "codePoint": "1F523",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-input-latin-letters",
+    "character": "\ud83d\udd24",
+    "unicodeName": "E0.6 input latin letters",
+    "codePoint": "1F524",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-a-button-blood-type",
+    "character": "\ud83c\udd70\ufe0f",
+    "unicodeName": "E0.6 A button (blood type)",
+    "codePoint": "1F170 FE0F",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-ab-button-blood-type",
+    "character": "\ud83c\udd8e",
+    "unicodeName": "E0.6 AB button (blood type)",
+    "codePoint": "1F18E",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-b-button-blood-type",
+    "character": "\ud83c\udd71\ufe0f",
+    "unicodeName": "E0.6 B button (blood type)",
+    "codePoint": "1F171 FE0F",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-cl-button",
+    "character": "\ud83c\udd91",
+    "unicodeName": "E0.6 CL button",
+    "codePoint": "1F191",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-cool-button",
+    "character": "\ud83c\udd92",
+    "unicodeName": "E0.6 COOL button",
+    "codePoint": "1F192",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-free-button",
+    "character": "\ud83c\udd93",
+    "unicodeName": "E0.6 FREE button",
+    "codePoint": "1F193",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-information",
+    "character": "\u2139\ufe0f",
+    "unicodeName": "E0.6 information",
+    "codePoint": "2139 FE0F",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-id-button",
+    "character": "\ud83c\udd94",
+    "unicodeName": "E0.6 ID button",
+    "codePoint": "1F194",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-circled-m",
+    "character": "\u24c2\ufe0f",
+    "unicodeName": "E0.6 circled M",
+    "codePoint": "24C2 FE0F",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-new-button",
+    "character": "\ud83c\udd95",
+    "unicodeName": "E0.6 NEW button",
+    "codePoint": "1F195",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-ng-button",
+    "character": "\ud83c\udd96",
+    "unicodeName": "E0.6 NG button",
+    "codePoint": "1F196",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-o-button-blood-type",
+    "character": "\ud83c\udd7e\ufe0f",
+    "unicodeName": "E0.6 O button (blood type)",
+    "codePoint": "1F17E FE0F",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-ok-button",
+    "character": "\ud83c\udd97",
+    "unicodeName": "E0.6 OK button",
+    "codePoint": "1F197",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-p-button",
+    "character": "\ud83c\udd7f\ufe0f",
+    "unicodeName": "E0.6 P button",
+    "codePoint": "1F17F FE0F",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-sos-button",
+    "character": "\ud83c\udd98",
+    "unicodeName": "E0.6 SOS button",
+    "codePoint": "1F198",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-up-button",
+    "character": "\ud83c\udd99",
+    "unicodeName": "E0.6 UP! button",
+    "codePoint": "1F199",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-vs-button",
+    "character": "\ud83c\udd9a",
+    "unicodeName": "E0.6 VS button",
+    "codePoint": "1F19A",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-japanese-here-button",
+    "character": "\ud83c\ude01",
+    "unicodeName": "E0.6 Japanese \u201chere\u201d button",
+    "codePoint": "1F201",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-japanese-service-charge-button",
+    "character": "\ud83c\ude02\ufe0f",
+    "unicodeName": "E0.6 Japanese \u201cservice charge\u201d button",
+    "codePoint": "1F202 FE0F",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-japanese-monthly-amount-button",
+    "character": "\ud83c\ude37\ufe0f",
+    "unicodeName": "E0.6 Japanese \u201cmonthly amount\u201d button",
+    "codePoint": "1F237 FE0F",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-japanese-not-free-of-charge-button",
+    "character": "\ud83c\ude36",
+    "unicodeName": "E0.6 Japanese \u201cnot free of charge\u201d button",
+    "codePoint": "1F236",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-japanese-reserved-button",
+    "character": "\ud83c\ude2f",
+    "unicodeName": "E0.6 Japanese \u201creserved\u201d button",
+    "codePoint": "1F22F",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-japanese-bargain-button",
+    "character": "\ud83c\ude50",
+    "unicodeName": "E0.6 Japanese \u201cbargain\u201d button",
+    "codePoint": "1F250",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-japanese-discount-button",
+    "character": "\ud83c\ude39",
+    "unicodeName": "E0.6 Japanese \u201cdiscount\u201d button",
+    "codePoint": "1F239",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-japanese-free-of-charge-button",
+    "character": "\ud83c\ude1a",
+    "unicodeName": "E0.6 Japanese \u201cfree of charge\u201d button",
+    "codePoint": "1F21A",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-japanese-prohibited-button",
+    "character": "\ud83c\ude32",
+    "unicodeName": "E0.6 Japanese \u201cprohibited\u201d button",
+    "codePoint": "1F232",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-japanese-acceptable-button",
+    "character": "\ud83c\ude51",
+    "unicodeName": "E0.6 Japanese \u201cacceptable\u201d button",
+    "codePoint": "1F251",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-japanese-application-button",
+    "character": "\ud83c\ude38",
+    "unicodeName": "E0.6 Japanese \u201capplication\u201d button",
+    "codePoint": "1F238",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-japanese-passing-grade-button",
+    "character": "\ud83c\ude34",
+    "unicodeName": "E0.6 Japanese \u201cpassing grade\u201d button",
+    "codePoint": "1F234",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-japanese-vacancy-button",
+    "character": "\ud83c\ude33",
+    "unicodeName": "E0.6 Japanese \u201cvacancy\u201d button",
+    "codePoint": "1F233",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-japanese-congratulations-button",
+    "character": "\u3297\ufe0f",
+    "unicodeName": "E0.6 Japanese \u201ccongratulations\u201d button",
+    "codePoint": "3297 FE0F",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-japanese-secret-button",
+    "character": "\u3299\ufe0f",
+    "unicodeName": "E0.6 Japanese \u201csecret\u201d button",
+    "codePoint": "3299 FE0F",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-japanese-open-for-business-button",
+    "character": "\ud83c\ude3a",
+    "unicodeName": "E0.6 Japanese \u201copen for business\u201d button",
+    "codePoint": "1F23A",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-japanese-no-vacancy-button",
+    "character": "\ud83c\ude35",
+    "unicodeName": "E0.6 Japanese \u201cno vacancy\u201d button",
+    "codePoint": "1F235",
+    "group": "symbols",
+    "subGroup": "alphanum"
+  },
+  {
+    "slug": "e0-6-red-circle",
+    "character": "\ud83d\udd34",
+    "unicodeName": "E0.6 red circle",
+    "codePoint": "1F534",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e12-0-orange-circle",
+    "character": "\ud83d\udfe0",
+    "unicodeName": "E12.0 orange circle",
+    "codePoint": "1F7E0",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e12-0-yellow-circle",
+    "character": "\ud83d\udfe1",
+    "unicodeName": "E12.0 yellow circle",
+    "codePoint": "1F7E1",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e12-0-green-circle",
+    "character": "\ud83d\udfe2",
+    "unicodeName": "E12.0 green circle",
+    "codePoint": "1F7E2",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-blue-circle",
+    "character": "\ud83d\udd35",
+    "unicodeName": "E0.6 blue circle",
+    "codePoint": "1F535",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e12-0-purple-circle",
+    "character": "\ud83d\udfe3",
+    "unicodeName": "E12.0 purple circle",
+    "codePoint": "1F7E3",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e12-0-brown-circle",
+    "character": "\ud83d\udfe4",
+    "unicodeName": "E12.0 brown circle",
+    "codePoint": "1F7E4",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-black-circle",
+    "character": "\u26ab",
+    "unicodeName": "E0.6 black circle",
+    "codePoint": "26AB",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-white-circle",
+    "character": "\u26aa",
+    "unicodeName": "E0.6 white circle",
+    "codePoint": "26AA",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e12-0-red-square",
+    "character": "\ud83d\udfe5",
+    "unicodeName": "E12.0 red square",
+    "codePoint": "1F7E5",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e12-0-orange-square",
+    "character": "\ud83d\udfe7",
+    "unicodeName": "E12.0 orange square",
+    "codePoint": "1F7E7",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e12-0-yellow-square",
+    "character": "\ud83d\udfe8",
+    "unicodeName": "E12.0 yellow square",
+    "codePoint": "1F7E8",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e12-0-green-square",
+    "character": "\ud83d\udfe9",
+    "unicodeName": "E12.0 green square",
+    "codePoint": "1F7E9",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e12-0-blue-square",
+    "character": "\ud83d\udfe6",
+    "unicodeName": "E12.0 blue square",
+    "codePoint": "1F7E6",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e12-0-purple-square",
+    "character": "\ud83d\udfea",
+    "unicodeName": "E12.0 purple square",
+    "codePoint": "1F7EA",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e12-0-brown-square",
+    "character": "\ud83d\udfeb",
+    "unicodeName": "E12.0 brown square",
+    "codePoint": "1F7EB",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-black-large-square",
+    "character": "\u2b1b",
+    "unicodeName": "E0.6 black large square",
+    "codePoint": "2B1B",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-white-large-square",
+    "character": "\u2b1c",
+    "unicodeName": "E0.6 white large square",
+    "codePoint": "2B1C",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-black-medium-square",
+    "character": "\u25fc\ufe0f",
+    "unicodeName": "E0.6 black medium square",
+    "codePoint": "25FC FE0F",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-white-medium-square",
+    "character": "\u25fb\ufe0f",
+    "unicodeName": "E0.6 white medium square",
+    "codePoint": "25FB FE0F",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-black-medium-small-square",
+    "character": "\u25fe",
+    "unicodeName": "E0.6 black medium-small square",
+    "codePoint": "25FE",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-white-medium-small-square",
+    "character": "\u25fd",
+    "unicodeName": "E0.6 white medium-small square",
+    "codePoint": "25FD",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-black-small-square",
+    "character": "\u25aa\ufe0f",
+    "unicodeName": "E0.6 black small square",
+    "codePoint": "25AA FE0F",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-white-small-square",
+    "character": "\u25ab\ufe0f",
+    "unicodeName": "E0.6 white small square",
+    "codePoint": "25AB FE0F",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-large-orange-diamond",
+    "character": "\ud83d\udd36",
+    "unicodeName": "E0.6 large orange diamond",
+    "codePoint": "1F536",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-large-blue-diamond",
+    "character": "\ud83d\udd37",
+    "unicodeName": "E0.6 large blue diamond",
+    "codePoint": "1F537",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-small-orange-diamond",
+    "character": "\ud83d\udd38",
+    "unicodeName": "E0.6 small orange diamond",
+    "codePoint": "1F538",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-small-blue-diamond",
+    "character": "\ud83d\udd39",
+    "unicodeName": "E0.6 small blue diamond",
+    "codePoint": "1F539",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-red-triangle-pointed-up",
+    "character": "\ud83d\udd3a",
+    "unicodeName": "E0.6 red triangle pointed up",
+    "codePoint": "1F53A",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-red-triangle-pointed-down",
+    "character": "\ud83d\udd3b",
+    "unicodeName": "E0.6 red triangle pointed down",
+    "codePoint": "1F53B",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-diamond-with-a-dot",
+    "character": "\ud83d\udca0",
+    "unicodeName": "E0.6 diamond with a dot",
+    "codePoint": "1F4A0",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-radio-button",
+    "character": "\ud83d\udd18",
+    "unicodeName": "E0.6 radio button",
+    "codePoint": "1F518",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-white-square-button",
+    "character": "\ud83d\udd33",
+    "unicodeName": "E0.6 white square button",
+    "codePoint": "1F533",
+    "group": "symbols",
+    "subGroup": "geometric"
+  },
+  {
+    "slug": "e0-6-black-square-button",
+    "character": "\ud83d\udd32",
+    "unicodeName": "E0.6 black square button",
+    "codePoint": "1F532",
+    "group": "symbols",
+    "subGroup": "geometric"
+  }
+]

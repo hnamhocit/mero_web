@@ -87,8 +87,6 @@ const AddFriendModal = () => {
     };
 
     const handleFriendRequestAccepted = (id: number) => {
-      console.log({ id, a: ids.sentRequestIds });
-
       setIds((prev) => ({
         ...prev,
         sentRequestIds: prev.sentRequestIds.filter((i) => i !== id),

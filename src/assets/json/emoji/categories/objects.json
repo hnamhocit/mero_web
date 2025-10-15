@@ -1,0 +1,2090 @@
+[
+  {
+    "slug": "e0-6-glasses",
+    "character": "👓",
+    "unicodeName": "E0.6 glasses",
+    "codePoint": "1F453",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-7-sunglasses",
+    "character": "🕶️",
+    "unicodeName": "E0.7 sunglasses",
+    "codePoint": "1F576 FE0F",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e11-0-goggles",
+    "character": "🥽",
+    "unicodeName": "E11.0 goggles",
+    "codePoint": "1F97D",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e11-0-lab-coat",
+    "character": "🥼",
+    "unicodeName": "E11.0 lab coat",
+    "codePoint": "1F97C",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e12-0-safety-vest",
+    "character": "🦺",
+    "unicodeName": "E12.0 safety vest",
+    "codePoint": "1F9BA",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-necktie",
+    "character": "👔",
+    "unicodeName": "E0.6 necktie",
+    "codePoint": "1F454",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-t-shirt",
+    "character": "👕",
+    "unicodeName": "E0.6 t-shirt",
+    "codePoint": "1F455",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-jeans",
+    "character": "👖",
+    "unicodeName": "E0.6 jeans",
+    "codePoint": "1F456",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e5-0-scarf",
+    "character": "🧣",
+    "unicodeName": "E5.0 scarf",
+    "codePoint": "1F9E3",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e5-0-gloves",
+    "character": "🧤",
+    "unicodeName": "E5.0 gloves",
+    "codePoint": "1F9E4",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e5-0-coat",
+    "character": "🧥",
+    "unicodeName": "E5.0 coat",
+    "codePoint": "1F9E5",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e5-0-socks",
+    "character": "🧦",
+    "unicodeName": "E5.0 socks",
+    "codePoint": "1F9E6",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-dress",
+    "character": "👗",
+    "unicodeName": "E0.6 dress",
+    "codePoint": "1F457",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-kimono",
+    "character": "👘",
+    "unicodeName": "E0.6 kimono",
+    "codePoint": "1F458",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e12-0-sari",
+    "character": "🥻",
+    "unicodeName": "E12.0 sari",
+    "codePoint": "1F97B",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e12-0-one-piece-swimsuit",
+    "character": "🩱",
+    "unicodeName": "E12.0 one-piece swimsuit",
+    "codePoint": "1FA71",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e12-0-briefs",
+    "character": "🩲",
+    "unicodeName": "E12.0 briefs",
+    "codePoint": "1FA72",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e12-0-shorts",
+    "character": "🩳",
+    "unicodeName": "E12.0 shorts",
+    "codePoint": "1FA73",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-bikini",
+    "character": "👙",
+    "unicodeName": "E0.6 bikini",
+    "codePoint": "1F459",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-woman-s-clothes",
+    "character": "👚",
+    "unicodeName": "E0.6 woman’s clothes",
+    "codePoint": "1F45A",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e15-0-folding-hand-fan",
+    "character": "🪭",
+    "unicodeName": "E15.0 folding hand fan",
+    "codePoint": "1FAAD",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-purse",
+    "character": "👛",
+    "unicodeName": "E0.6 purse",
+    "codePoint": "1F45B",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-handbag",
+    "character": "👜",
+    "unicodeName": "E0.6 handbag",
+    "codePoint": "1F45C",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-clutch-bag",
+    "character": "👝",
+    "unicodeName": "E0.6 clutch bag",
+    "codePoint": "1F45D",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-7-shopping-bags",
+    "character": "🛍️",
+    "unicodeName": "E0.7 shopping bags",
+    "codePoint": "1F6CD FE0F",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-backpack",
+    "character": "🎒",
+    "unicodeName": "E0.6 backpack",
+    "codePoint": "1F392",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e13-0-thong-sandal",
+    "character": "🩴",
+    "unicodeName": "E13.0 thong sandal",
+    "codePoint": "1FA74",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-man-s-shoe",
+    "character": "👞",
+    "unicodeName": "E0.6 man’s shoe",
+    "codePoint": "1F45E",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-running-shoe",
+    "character": "👟",
+    "unicodeName": "E0.6 running shoe",
+    "codePoint": "1F45F",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e11-0-hiking-boot",
+    "character": "🥾",
+    "unicodeName": "E11.0 hiking boot",
+    "codePoint": "1F97E",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e11-0-flat-shoe",
+    "character": "🥿",
+    "unicodeName": "E11.0 flat shoe",
+    "codePoint": "1F97F",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-high-heeled-shoe",
+    "character": "👠",
+    "unicodeName": "E0.6 high-heeled shoe",
+    "codePoint": "1F460",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-woman-s-sandal",
+    "character": "👡",
+    "unicodeName": "E0.6 woman’s sandal",
+    "codePoint": "1F461",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e12-0-ballet-shoes",
+    "character": "🩰",
+    "unicodeName": "E12.0 ballet shoes",
+    "codePoint": "1FA70",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-woman-s-boot",
+    "character": "👢",
+    "unicodeName": "E0.6 woman’s boot",
+    "codePoint": "1F462",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e15-0-hair-pick",
+    "character": "🪮",
+    "unicodeName": "E15.0 hair pick",
+    "codePoint": "1FAAE",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-crown",
+    "character": "👑",
+    "unicodeName": "E0.6 crown",
+    "codePoint": "1F451",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-woman-s-hat",
+    "character": "👒",
+    "unicodeName": "E0.6 woman’s hat",
+    "codePoint": "1F452",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-top-hat",
+    "character": "🎩",
+    "unicodeName": "E0.6 top hat",
+    "codePoint": "1F3A9",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-graduation-cap",
+    "character": "🎓",
+    "unicodeName": "E0.6 graduation cap",
+    "codePoint": "1F393",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e5-0-billed-cap",
+    "character": "🧢",
+    "unicodeName": "E5.0 billed cap",
+    "codePoint": "1F9E2",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e13-0-military-helmet",
+    "character": "🪖",
+    "unicodeName": "E13.0 military helmet",
+    "codePoint": "1FA96",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-7-rescue-worker-s-helmet",
+    "character": "⛑️",
+    "unicodeName": "E0.7 rescue worker’s helmet",
+    "codePoint": "26D1 FE0F",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e1-0-prayer-beads",
+    "character": "📿",
+    "unicodeName": "E1.0 prayer beads",
+    "codePoint": "1F4FF",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-lipstick",
+    "character": "💄",
+    "unicodeName": "E0.6 lipstick",
+    "codePoint": "1F484",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-ring",
+    "character": "💍",
+    "unicodeName": "E0.6 ring",
+    "codePoint": "1F48D",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e0-6-gem-stone",
+    "character": "💎",
+    "unicodeName": "E0.6 gem stone",
+    "codePoint": "1F48E",
+    "group": "objects",
+    "subGroup": "clothing"
+  },
+  {
+    "slug": "e1-0-muted-speaker",
+    "character": "🔇",
+    "unicodeName": "E1.0 muted speaker",
+    "codePoint": "1F507",
+    "group": "objects",
+    "subGroup": "sound"
+  },
+  {
+    "slug": "e0-7-speaker-low-volume",
+    "character": "🔈",
+    "unicodeName": "E0.7 speaker low volume",
+    "codePoint": "1F508",
+    "group": "objects",
+    "subGroup": "sound"
+  },
+  {
+    "slug": "e1-0-speaker-medium-volume",
+    "character": "🔉",
+    "unicodeName": "E1.0 speaker medium volume",
+    "codePoint": "1F509",
+    "group": "objects",
+    "subGroup": "sound"
+  },
+  {
+    "slug": "e0-6-speaker-high-volume",
+    "character": "🔊",
+    "unicodeName": "E0.6 speaker high volume",
+    "codePoint": "1F50A",
+    "group": "objects",
+    "subGroup": "sound"
+  },
+  {
+    "slug": "e0-6-loudspeaker",
+    "character": "📢",
+    "unicodeName": "E0.6 loudspeaker",
+    "codePoint": "1F4E2",
+    "group": "objects",
+    "subGroup": "sound"
+  },
+  {
+    "slug": "e0-6-megaphone",
+    "character": "📣",
+    "unicodeName": "E0.6 megaphone",
+    "codePoint": "1F4E3",
+    "group": "objects",
+    "subGroup": "sound"
+  },
+  {
+    "slug": "e1-0-postal-horn",
+    "character": "📯",
+    "unicodeName": "E1.0 postal horn",
+    "codePoint": "1F4EF",
+    "group": "objects",
+    "subGroup": "sound"
+  },
+  {
+    "slug": "e0-6-bell",
+    "character": "🔔",
+    "unicodeName": "E0.6 bell",
+    "codePoint": "1F514",
+    "group": "objects",
+    "subGroup": "sound"
+  },
+  {
+    "slug": "e1-0-bell-with-slash",
+    "character": "🔕",
+    "unicodeName": "E1.0 bell with slash",
+    "codePoint": "1F515",
+    "group": "objects",
+    "subGroup": "sound"
+  },
+  {
+    "slug": "e0-6-musical-score",
+    "character": "🎼",
+    "unicodeName": "E0.6 musical score",
+    "codePoint": "1F3BC",
+    "group": "objects",
+    "subGroup": "music"
+  },
+  {
+    "slug": "e0-6-musical-note",
+    "character": "🎵",
+    "unicodeName": "E0.6 musical note",
+    "codePoint": "1F3B5",
+    "group": "objects",
+    "subGroup": "music"
+  },
+  {
+    "slug": "e0-6-musical-notes",
+    "character": "🎶",
+    "unicodeName": "E0.6 musical notes",
+    "codePoint": "1F3B6",
+    "group": "objects",
+    "subGroup": "music"
+  },
+  {
+    "slug": "e0-7-studio-microphone",
+    "character": "🎙️",
+    "unicodeName": "E0.7 studio microphone",
+    "codePoint": "1F399 FE0F",
+    "group": "objects",
+    "subGroup": "music"
+  },
+  {
+    "slug": "e0-7-level-slider",
+    "character": "🎚️",
+    "unicodeName": "E0.7 level slider",
+    "codePoint": "1F39A FE0F",
+    "group": "objects",
+    "subGroup": "music"
+  },
+  {
+    "slug": "e0-7-control-knobs",
+    "character": "🎛️",
+    "unicodeName": "E0.7 control knobs",
+    "codePoint": "1F39B FE0F",
+    "group": "objects",
+    "subGroup": "music"
+  },
+  {
+    "slug": "e0-6-microphone",
+    "character": "🎤",
+    "unicodeName": "E0.6 microphone",
+    "codePoint": "1F3A4",
+    "group": "objects",
+    "subGroup": "music"
+  },
+  {
+    "slug": "e0-6-headphone",
+    "character": "🎧",
+    "unicodeName": "E0.6 headphone",
+    "codePoint": "1F3A7",
+    "group": "objects",
+    "subGroup": "music"
+  },
+  {
+    "slug": "e0-6-radio",
+    "character": "📻",
+    "unicodeName": "E0.6 radio",
+    "codePoint": "1F4FB",
+    "group": "objects",
+    "subGroup": "music"
+  },
+  {
+    "slug": "e0-6-saxophone",
+    "character": "🎷",
+    "unicodeName": "E0.6 saxophone",
+    "codePoint": "1F3B7",
+    "group": "objects",
+    "subGroup": "musical-instrument"
+  },
+  {
+    "slug": "e13-0-accordion",
+    "character": "🪗",
+    "unicodeName": "E13.0 accordion",
+    "codePoint": "1FA97",
+    "group": "objects",
+    "subGroup": "musical-instrument"
+  },
+  {
+    "slug": "e0-6-guitar",
+    "character": "🎸",
+    "unicodeName": "E0.6 guitar",
+    "codePoint": "1F3B8",
+    "group": "objects",
+    "subGroup": "musical-instrument"
+  },
+  {
+    "slug": "e0-6-musical-keyboard",
+    "character": "🎹",
+    "unicodeName": "E0.6 musical keyboard",
+    "codePoint": "1F3B9",
+    "group": "objects",
+    "subGroup": "musical-instrument"
+  },
+  {
+    "slug": "e0-6-trumpet",
+    "character": "🎺",
+    "unicodeName": "E0.6 trumpet",
+    "codePoint": "1F3BA",
+    "group": "objects",
+    "subGroup": "musical-instrument"
+  },
+  {
+    "slug": "e0-6-violin",
+    "character": "🎻",
+    "unicodeName": "E0.6 violin",
+    "codePoint": "1F3BB",
+    "group": "objects",
+    "subGroup": "musical-instrument"
+  },
+  {
+    "slug": "e12-0-banjo",
+    "character": "🪕",
+    "unicodeName": "E12.0 banjo",
+    "codePoint": "1FA95",
+    "group": "objects",
+    "subGroup": "musical-instrument"
+  },
+  {
+    "slug": "e3-0-drum",
+    "character": "🥁",
+    "unicodeName": "E3.0 drum",
+    "codePoint": "1F941",
+    "group": "objects",
+    "subGroup": "musical-instrument"
+  },
+  {
+    "slug": "e13-0-long-drum",
+    "character": "🪘",
+    "unicodeName": "E13.0 long drum",
+    "codePoint": "1FA98",
+    "group": "objects",
+    "subGroup": "musical-instrument"
+  },
+  {
+    "slug": "e15-0-maracas",
+    "character": "🪇",
+    "unicodeName": "E15.0 maracas",
+    "codePoint": "1FA87",
+    "group": "objects",
+    "subGroup": "musical-instrument"
+  },
+  {
+    "slug": "e15-0-flute",
+    "character": "🪈",
+    "unicodeName": "E15.0 flute",
+    "codePoint": "1FA88",
+    "group": "objects",
+    "subGroup": "musical-instrument"
+  },
+  {
+    "slug": "e0-6-mobile-phone",
+    "character": "📱",
+    "unicodeName": "E0.6 mobile phone",
+    "codePoint": "1F4F1",
+    "group": "objects",
+    "subGroup": "phone"
+  },
+  {
+    "slug": "e0-6-mobile-phone-with-arrow",
+    "character": "📲",
+    "unicodeName": "E0.6 mobile phone with arrow",
+    "codePoint": "1F4F2",
+    "group": "objects",
+    "subGroup": "phone"
+  },
+  {
+    "slug": "e0-6-telephone",
+    "character": "☎️",
+    "unicodeName": "E0.6 telephone",
+    "codePoint": "260E FE0F",
+    "group": "objects",
+    "subGroup": "phone"
+  },
+  {
+    "slug": "e0-6-telephone-receiver",
+    "character": "📞",
+    "unicodeName": "E0.6 telephone receiver",
+    "codePoint": "1F4DE",
+    "group": "objects",
+    "subGroup": "phone"
+  },
+  {
+    "slug": "e0-6-pager",
+    "character": "📟",
+    "unicodeName": "E0.6 pager",
+    "codePoint": "1F4DF",
+    "group": "objects",
+    "subGroup": "phone"
+  },
+  {
+    "slug": "e0-6-fax-machine",
+    "character": "📠",
+    "unicodeName": "E0.6 fax machine",
+    "codePoint": "1F4E0",
+    "group": "objects",
+    "subGroup": "phone"
+  },
+  {
+    "slug": "e0-6-battery",
+    "character": "🔋",
+    "unicodeName": "E0.6 battery",
+    "codePoint": "1F50B",
+    "group": "objects",
+    "subGroup": "computer"
+  },
+  {
+    "slug": "e14-0-low-battery",
+    "character": "🪫",
+    "unicodeName": "E14.0 low battery",
+    "codePoint": "1FAAB",
+    "group": "objects",
+    "subGroup": "computer"
+  },
+  {
+    "slug": "e0-6-electric-plug",
+    "character": "🔌",
+    "unicodeName": "E0.6 electric plug",
+    "codePoint": "1F50C",
+    "group": "objects",
+    "subGroup": "computer"
+  },
+  {
+    "slug": "e0-6-laptop",
+    "character": "💻",
+    "unicodeName": "E0.6 laptop",
+    "codePoint": "1F4BB",
+    "group": "objects",
+    "subGroup": "computer"
+  },
+  {
+    "slug": "e0-7-desktop-computer",
+    "character": "🖥️",
+    "unicodeName": "E0.7 desktop computer",
+    "codePoint": "1F5A5 FE0F",
+    "group": "objects",
+    "subGroup": "computer"
+  },
+  {
+    "slug": "e0-7-printer",
+    "character": "🖨️",
+    "unicodeName": "E0.7 printer",
+    "codePoint": "1F5A8 FE0F",
+    "group": "objects",
+    "subGroup": "computer"
+  },
+  {
+    "slug": "e1-0-keyboard",
+    "character": "⌨️",
+    "unicodeName": "E1.0 keyboard",
+    "codePoint": "2328 FE0F",
+    "group": "objects",
+    "subGroup": "computer"
+  },
+  {
+    "slug": "e0-7-computer-mouse",
+    "character": "🖱️",
+    "unicodeName": "E0.7 computer mouse",
+    "codePoint": "1F5B1 FE0F",
+    "group": "objects",
+    "subGroup": "computer"
+  },
+  {
+    "slug": "e0-7-trackball",
+    "character": "🖲️",
+    "unicodeName": "E0.7 trackball",
+    "codePoint": "1F5B2 FE0F",
+    "group": "objects",
+    "subGroup": "computer"
+  },
+  {
+    "slug": "e0-6-computer-disk",
+    "character": "💽",
+    "unicodeName": "E0.6 computer disk",
+    "codePoint": "1F4BD",
+    "group": "objects",
+    "subGroup": "computer"
+  },
+  {
+    "slug": "e0-6-floppy-disk",
+    "character": "💾",
+    "unicodeName": "E0.6 floppy disk",
+    "codePoint": "1F4BE",
+    "group": "objects",
+    "subGroup": "computer"
+  },
+  {
+    "slug": "e0-6-optical-disk",
+    "character": "💿",
+    "unicodeName": "E0.6 optical disk",
+    "codePoint": "1F4BF",
+    "group": "objects",
+    "subGroup": "computer"
+  },
+  {
+    "slug": "e0-6-dvd",
+    "character": "📀",
+    "unicodeName": "E0.6 dvd",
+    "codePoint": "1F4C0",
+    "group": "objects",
+    "subGroup": "computer"
+  },
+  {
+    "slug": "e11-0-abacus",
+    "character": "🧮",
+    "unicodeName": "E11.0 abacus",
+    "codePoint": "1F9EE",
+    "group": "objects",
+    "subGroup": "computer"
+  },
+  {
+    "slug": "e0-6-movie-camera",
+    "character": "🎥",
+    "unicodeName": "E0.6 movie camera",
+    "codePoint": "1F3A5",
+    "group": "objects",
+    "subGroup": "light-video"
+  },
+  {
+    "slug": "e0-7-film-frames",
+    "character": "🎞️",
+    "unicodeName": "E0.7 film frames",
+    "codePoint": "1F39E FE0F",
+    "group": "objects",
+    "subGroup": "light-video"
+  },
+  {
+    "slug": "e0-7-film-projector",
+    "character": "📽️",
+    "unicodeName": "E0.7 film projector",
+    "codePoint": "1F4FD FE0F",
+    "group": "objects",
+    "subGroup": "light-video"
+  },
+  {
+    "slug": "e0-6-clapper-board",
+    "character": "🎬",
+    "unicodeName": "E0.6 clapper board",
+    "codePoint": "1F3AC",
+    "group": "objects",
+    "subGroup": "light-video"
+  },
+  {
+    "slug": "e0-6-television",
+    "character": "📺",
+    "unicodeName": "E0.6 television",
+    "codePoint": "1F4FA",
+    "group": "objects",
+    "subGroup": "light-video"
+  },
+  {
+    "slug": "e0-6-camera",
+    "character": "📷",
+    "unicodeName": "E0.6 camera",
+    "codePoint": "1F4F7",
+    "group": "objects",
+    "subGroup": "light-video"
+  },
+  {
+    "slug": "e1-0-camera-with-flash",
+    "character": "📸",
+    "unicodeName": "E1.0 camera with flash",
+    "codePoint": "1F4F8",
+    "group": "objects",
+    "subGroup": "light-video"
+  },
+  {
+    "slug": "e0-6-video-camera",
+    "character": "📹",
+    "unicodeName": "E0.6 video camera",
+    "codePoint": "1F4F9",
+    "group": "objects",
+    "subGroup": "light-video"
+  },
+  {
+    "slug": "e0-6-videocassette",
+    "character": "📼",
+    "unicodeName": "E0.6 videocassette",
+    "codePoint": "1F4FC",
+    "group": "objects",
+    "subGroup": "light-video"
+  },
+  {
+    "slug": "e0-6-magnifying-glass-tilted-left",
+    "character": "🔍",
+    "unicodeName": "E0.6 magnifying glass tilted left",
+    "codePoint": "1F50D",
+    "group": "objects",
+    "subGroup": "light-video"
+  },
+  {
+    "slug": "e0-6-magnifying-glass-tilted-right",
+    "character": "🔎",
+    "unicodeName": "E0.6 magnifying glass tilted right",
+    "codePoint": "1F50E",
+    "group": "objects",
+    "subGroup": "light-video"
+  },
+  {
+    "slug": "e0-7-candle",
+    "character": "🕯️",
+    "unicodeName": "E0.7 candle",
+    "codePoint": "1F56F FE0F",
+    "group": "objects",
+    "subGroup": "light-video"
+  },
+  {
+    "slug": "e0-6-light-bulb",
+    "character": "💡",
+    "unicodeName": "E0.6 light bulb",
+    "codePoint": "1F4A1",
+    "group": "objects",
+    "subGroup": "light-video"
+  },
+  {
+    "slug": "e0-6-flashlight",
+    "character": "🔦",
+    "unicodeName": "E0.6 flashlight",
+    "codePoint": "1F526",
+    "group": "objects",
+    "subGroup": "light-video"
+  },
+  {
+    "slug": "e0-6-red-paper-lantern",
+    "character": "🏮",
+    "unicodeName": "E0.6 red paper lantern",
+    "codePoint": "1F3EE",
+    "group": "objects",
+    "subGroup": "light-video"
+  },
+  {
+    "slug": "e12-0-diya-lamp",
+    "character": "🪔",
+    "unicodeName": "E12.0 diya lamp",
+    "codePoint": "1FA94",
+    "group": "objects",
+    "subGroup": "light-video"
+  },
+  {
+    "slug": "e0-6-notebook-with-decorative-cover",
+    "character": "📔",
+    "unicodeName": "E0.6 notebook with decorative cover",
+    "codePoint": "1F4D4",
+    "group": "objects",
+    "subGroup": "book-paper"
+  },
+  {
+    "slug": "e0-6-closed-book",
+    "character": "📕",
+    "unicodeName": "E0.6 closed book",
+    "codePoint": "1F4D5",
+    "group": "objects",
+    "subGroup": "book-paper"
+  },
+  {
+    "slug": "e0-6-open-book",
+    "character": "📖",
+    "unicodeName": "E0.6 open book",
+    "codePoint": "1F4D6",
+    "group": "objects",
+    "subGroup": "book-paper"
+  },
+  {
+    "slug": "e0-6-green-book",
+    "character": "📗",
+    "unicodeName": "E0.6 green book",
+    "codePoint": "1F4D7",
+    "group": "objects",
+    "subGroup": "book-paper"
+  },
+  {
+    "slug": "e0-6-blue-book",
+    "character": "📘",
+    "unicodeName": "E0.6 blue book",
+    "codePoint": "1F4D8",
+    "group": "objects",
+    "subGroup": "book-paper"
+  },
+  {
+    "slug": "e0-6-orange-book",
+    "character": "📙",
+    "unicodeName": "E0.6 orange book",
+    "codePoint": "1F4D9",
+    "group": "objects",
+    "subGroup": "book-paper"
+  },
+  {
+    "slug": "e0-6-books",
+    "character": "📚",
+    "unicodeName": "E0.6 books",
+    "codePoint": "1F4DA",
+    "group": "objects",
+    "subGroup": "book-paper"
+  },
+  {
+    "slug": "e0-6-notebook",
+    "character": "📓",
+    "unicodeName": "E0.6 notebook",
+    "codePoint": "1F4D3",
+    "group": "objects",
+    "subGroup": "book-paper"
+  },
+  {
+    "slug": "e0-6-ledger",
+    "character": "📒",
+    "unicodeName": "E0.6 ledger",
+    "codePoint": "1F4D2",
+    "group": "objects",
+    "subGroup": "book-paper"
+  },
+  {
+    "slug": "e0-6-page-with-curl",
+    "character": "📃",
+    "unicodeName": "E0.6 page with curl",
+    "codePoint": "1F4C3",
+    "group": "objects",
+    "subGroup": "book-paper"
+  },
+  {
+    "slug": "e0-6-scroll",
+    "character": "📜",
+    "unicodeName": "E0.6 scroll",
+    "codePoint": "1F4DC",
+    "group": "objects",
+    "subGroup": "book-paper"
+  },
+  {
+    "slug": "e0-6-page-facing-up",
+    "character": "📄",
+    "unicodeName": "E0.6 page facing up",
+    "codePoint": "1F4C4",
+    "group": "objects",
+    "subGroup": "book-paper"
+  },
+  {
+    "slug": "e0-6-newspaper",
+    "character": "📰",
+    "unicodeName": "E0.6 newspaper",
+    "codePoint": "1F4F0",
+    "group": "objects",
+    "subGroup": "book-paper"
+  },
+  {
+    "slug": "e0-7-rolled-up-newspaper",
+    "character": "🗞️",
+    "unicodeName": "E0.7 rolled-up newspaper",
+    "codePoint": "1F5DE FE0F",
+    "group": "objects",
+    "subGroup": "book-paper"
+  },
+  {
+    "slug": "e0-6-bookmark-tabs",
+    "character": "📑",
+    "unicodeName": "E0.6 bookmark tabs",
+    "codePoint": "1F4D1",
+    "group": "objects",
+    "subGroup": "book-paper"
+  },
+  {
+    "slug": "e0-6-bookmark",
+    "character": "🔖",
+    "unicodeName": "E0.6 bookmark",
+    "codePoint": "1F516",
+    "group": "objects",
+    "subGroup": "book-paper"
+  },
+  {
+    "slug": "e0-7-label",
+    "character": "🏷️",
+    "unicodeName": "E0.7 label",
+    "codePoint": "1F3F7 FE0F",
+    "group": "objects",
+    "subGroup": "book-paper"
+  },
+  {
+    "slug": "e0-6-money-bag",
+    "character": "💰",
+    "unicodeName": "E0.6 money bag",
+    "codePoint": "1F4B0",
+    "group": "objects",
+    "subGroup": "money"
+  },
+  {
+    "slug": "e13-0-coin",
+    "character": "🪙",
+    "unicodeName": "E13.0 coin",
+    "codePoint": "1FA99",
+    "group": "objects",
+    "subGroup": "money"
+  },
+  {
+    "slug": "e0-6-yen-banknote",
+    "character": "💴",
+    "unicodeName": "E0.6 yen banknote",
+    "codePoint": "1F4B4",
+    "group": "objects",
+    "subGroup": "money"
+  },
+  {
+    "slug": "e0-6-dollar-banknote",
+    "character": "💵",
+    "unicodeName": "E0.6 dollar banknote",
+    "codePoint": "1F4B5",
+    "group": "objects",
+    "subGroup": "money"
+  },
+  {
+    "slug": "e1-0-euro-banknote",
+    "character": "💶",
+    "unicodeName": "E1.0 euro banknote",
+    "codePoint": "1F4B6",
+    "group": "objects",
+    "subGroup": "money"
+  },
+  {
+    "slug": "e1-0-pound-banknote",
+    "character": "💷",
+    "unicodeName": "E1.0 pound banknote",
+    "codePoint": "1F4B7",
+    "group": "objects",
+    "subGroup": "money"
+  },
+  {
+    "slug": "e0-6-money-with-wings",
+    "character": "💸",
+    "unicodeName": "E0.6 money with wings",
+    "codePoint": "1F4B8",
+    "group": "objects",
+    "subGroup": "money"
+  },
+  {
+    "slug": "e0-6-credit-card",
+    "character": "💳",
+    "unicodeName": "E0.6 credit card",
+    "codePoint": "1F4B3",
+    "group": "objects",
+    "subGroup": "money"
+  },
+  {
+    "slug": "e11-0-receipt",
+    "character": "🧾",
+    "unicodeName": "E11.0 receipt",
+    "codePoint": "1F9FE",
+    "group": "objects",
+    "subGroup": "money"
+  },
+  {
+    "slug": "e0-6-chart-increasing-with-yen",
+    "character": "💹",
+    "unicodeName": "E0.6 chart increasing with yen",
+    "codePoint": "1F4B9",
+    "group": "objects",
+    "subGroup": "money"
+  },
+  {
+    "slug": "e0-6-envelope",
+    "character": "✉️",
+    "unicodeName": "E0.6 envelope",
+    "codePoint": "2709 FE0F",
+    "group": "objects",
+    "subGroup": "mail"
+  },
+  {
+    "slug": "e0-6-e-mail",
+    "character": "📧",
+    "unicodeName": "E0.6 e-mail",
+    "codePoint": "1F4E7",
+    "group": "objects",
+    "subGroup": "mail"
+  },
+  {
+    "slug": "e0-6-incoming-envelope",
+    "character": "📨",
+    "unicodeName": "E0.6 incoming envelope",
+    "codePoint": "1F4E8",
+    "group": "objects",
+    "subGroup": "mail"
+  },
+  {
+    "slug": "e0-6-envelope-with-arrow",
+    "character": "📩",
+    "unicodeName": "E0.6 envelope with arrow",
+    "codePoint": "1F4E9",
+    "group": "objects",
+    "subGroup": "mail"
+  },
+  {
+    "slug": "e0-6-outbox-tray",
+    "character": "📤",
+    "unicodeName": "E0.6 outbox tray",
+    "codePoint": "1F4E4",
+    "group": "objects",
+    "subGroup": "mail"
+  },
+  {
+    "slug": "e0-6-inbox-tray",
+    "character": "📥",
+    "unicodeName": "E0.6 inbox tray",
+    "codePoint": "1F4E5",
+    "group": "objects",
+    "subGroup": "mail"
+  },
+  {
+    "slug": "e0-6-package",
+    "character": "📦",
+    "unicodeName": "E0.6 package",
+    "codePoint": "1F4E6",
+    "group": "objects",
+    "subGroup": "mail"
+  },
+  {
+    "slug": "e0-6-closed-mailbox-with-raised-flag",
+    "character": "📫",
+    "unicodeName": "E0.6 closed mailbox with raised flag",
+    "codePoint": "1F4EB",
+    "group": "objects",
+    "subGroup": "mail"
+  },
+  {
+    "slug": "e0-6-closed-mailbox-with-lowered-flag",
+    "character": "📪",
+    "unicodeName": "E0.6 closed mailbox with lowered flag",
+    "codePoint": "1F4EA",
+    "group": "objects",
+    "subGroup": "mail"
+  },
+  {
+    "slug": "e0-7-open-mailbox-with-raised-flag",
+    "character": "📬",
+    "unicodeName": "E0.7 open mailbox with raised flag",
+    "codePoint": "1F4EC",
+    "group": "objects",
+    "subGroup": "mail"
+  },
+  {
+    "slug": "e0-7-open-mailbox-with-lowered-flag",
+    "character": "📭",
+    "unicodeName": "E0.7 open mailbox with lowered flag",
+    "codePoint": "1F4ED",
+    "group": "objects",
+    "subGroup": "mail"
+  },
+  {
+    "slug": "e0-6-postbox",
+    "character": "📮",
+    "unicodeName": "E0.6 postbox",
+    "codePoint": "1F4EE",
+    "group": "objects",
+    "subGroup": "mail"
+  },
+  {
+    "slug": "e0-7-ballot-box-with-ballot",
+    "character": "🗳️",
+    "unicodeName": "E0.7 ballot box with ballot",
+    "codePoint": "1F5F3 FE0F",
+    "group": "objects",
+    "subGroup": "mail"
+  },
+  {
+    "slug": "e0-6-pencil",
+    "character": "✏️",
+    "unicodeName": "E0.6 pencil",
+    "codePoint": "270F FE0F",
+    "group": "objects",
+    "subGroup": "writing"
+  },
+  {
+    "slug": "e0-6-black-nib",
+    "character": "✒️",
+    "unicodeName": "E0.6 black nib",
+    "codePoint": "2712 FE0F",
+    "group": "objects",
+    "subGroup": "writing"
+  },
+  {
+    "slug": "e0-7-fountain-pen",
+    "character": "🖋️",
+    "unicodeName": "E0.7 fountain pen",
+    "codePoint": "1F58B FE0F",
+    "group": "objects",
+    "subGroup": "writing"
+  },
+  {
+    "slug": "e0-7-pen",
+    "character": "🖊️",
+    "unicodeName": "E0.7 pen",
+    "codePoint": "1F58A FE0F",
+    "group": "objects",
+    "subGroup": "writing"
+  },
+  {
+    "slug": "e0-7-paintbrush",
+    "character": "🖌️",
+    "unicodeName": "E0.7 paintbrush",
+    "codePoint": "1F58C FE0F",
+    "group": "objects",
+    "subGroup": "writing"
+  },
+  {
+    "slug": "e0-7-crayon",
+    "character": "🖍️",
+    "unicodeName": "E0.7 crayon",
+    "codePoint": "1F58D FE0F",
+    "group": "objects",
+    "subGroup": "writing"
+  },
+  {
+    "slug": "e0-6-memo",
+    "character": "📝",
+    "unicodeName": "E0.6 memo",
+    "codePoint": "1F4DD",
+    "group": "objects",
+    "subGroup": "writing"
+  },
+  {
+    "slug": "e0-6-briefcase",
+    "character": "💼",
+    "unicodeName": "E0.6 briefcase",
+    "codePoint": "1F4BC",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-6-file-folder",
+    "character": "📁",
+    "unicodeName": "E0.6 file folder",
+    "codePoint": "1F4C1",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-6-open-file-folder",
+    "character": "📂",
+    "unicodeName": "E0.6 open file folder",
+    "codePoint": "1F4C2",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-7-card-index-dividers",
+    "character": "🗂️",
+    "unicodeName": "E0.7 card index dividers",
+    "codePoint": "1F5C2 FE0F",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-6-calendar",
+    "character": "📅",
+    "unicodeName": "E0.6 calendar",
+    "codePoint": "1F4C5",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-6-tear-off-calendar",
+    "character": "📆",
+    "unicodeName": "E0.6 tear-off calendar",
+    "codePoint": "1F4C6",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-7-spiral-notepad",
+    "character": "🗒️",
+    "unicodeName": "E0.7 spiral notepad",
+    "codePoint": "1F5D2 FE0F",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-7-spiral-calendar",
+    "character": "🗓️",
+    "unicodeName": "E0.7 spiral calendar",
+    "codePoint": "1F5D3 FE0F",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-6-card-index",
+    "character": "📇",
+    "unicodeName": "E0.6 card index",
+    "codePoint": "1F4C7",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-6-chart-increasing",
+    "character": "📈",
+    "unicodeName": "E0.6 chart increasing",
+    "codePoint": "1F4C8",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-6-chart-decreasing",
+    "character": "📉",
+    "unicodeName": "E0.6 chart decreasing",
+    "codePoint": "1F4C9",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-6-bar-chart",
+    "character": "📊",
+    "unicodeName": "E0.6 bar chart",
+    "codePoint": "1F4CA",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-6-clipboard",
+    "character": "📋",
+    "unicodeName": "E0.6 clipboard",
+    "codePoint": "1F4CB",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-6-pushpin",
+    "character": "📌",
+    "unicodeName": "E0.6 pushpin",
+    "codePoint": "1F4CC",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-6-round-pushpin",
+    "character": "📍",
+    "unicodeName": "E0.6 round pushpin",
+    "codePoint": "1F4CD",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-6-paperclip",
+    "character": "📎",
+    "unicodeName": "E0.6 paperclip",
+    "codePoint": "1F4CE",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-7-linked-paperclips",
+    "character": "🖇️",
+    "unicodeName": "E0.7 linked paperclips",
+    "codePoint": "1F587 FE0F",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-6-straight-ruler",
+    "character": "📏",
+    "unicodeName": "E0.6 straight ruler",
+    "codePoint": "1F4CF",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-6-triangular-ruler",
+    "character": "📐",
+    "unicodeName": "E0.6 triangular ruler",
+    "codePoint": "1F4D0",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-6-scissors",
+    "character": "✂️",
+    "unicodeName": "E0.6 scissors",
+    "codePoint": "2702 FE0F",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-7-card-file-box",
+    "character": "🗃️",
+    "unicodeName": "E0.7 card file box",
+    "codePoint": "1F5C3 FE0F",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-7-file-cabinet",
+    "character": "🗄️",
+    "unicodeName": "E0.7 file cabinet",
+    "codePoint": "1F5C4 FE0F",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-7-wastebasket",
+    "character": "🗑️",
+    "unicodeName": "E0.7 wastebasket",
+    "codePoint": "1F5D1 FE0F",
+    "group": "objects",
+    "subGroup": "office"
+  },
+  {
+    "slug": "e0-6-locked",
+    "character": "🔒",
+    "unicodeName": "E0.6 locked",
+    "codePoint": "1F512",
+    "group": "objects",
+    "subGroup": "lock"
+  },
+  {
+    "slug": "e0-6-unlocked",
+    "character": "🔓",
+    "unicodeName": "E0.6 unlocked",
+    "codePoint": "1F513",
+    "group": "objects",
+    "subGroup": "lock"
+  },
+  {
+    "slug": "e0-6-locked-with-pen",
+    "character": "🔏",
+    "unicodeName": "E0.6 locked with pen",
+    "codePoint": "1F50F",
+    "group": "objects",
+    "subGroup": "lock"
+  },
+  {
+    "slug": "e0-6-locked-with-key",
+    "character": "🔐",
+    "unicodeName": "E0.6 locked with key",
+    "codePoint": "1F510",
+    "group": "objects",
+    "subGroup": "lock"
+  },
+  {
+    "slug": "e0-6-key",
+    "character": "🔑",
+    "unicodeName": "E0.6 key",
+    "codePoint": "1F511",
+    "group": "objects",
+    "subGroup": "lock"
+  },
+  {
+    "slug": "e0-7-old-key",
+    "character": "🗝️",
+    "unicodeName": "E0.7 old key",
+    "codePoint": "1F5DD FE0F",
+    "group": "objects",
+    "subGroup": "lock"
+  },
+  {
+    "slug": "e0-6-hammer",
+    "character": "🔨",
+    "unicodeName": "E0.6 hammer",
+    "codePoint": "1F528",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e12-0-axe",
+    "character": "🪓",
+    "unicodeName": "E12.0 axe",
+    "codePoint": "1FA93",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e0-7-pick",
+    "character": "⛏️",
+    "unicodeName": "E0.7 pick",
+    "codePoint": "26CF FE0F",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e1-0-hammer-and-pick",
+    "character": "⚒️",
+    "unicodeName": "E1.0 hammer and pick",
+    "codePoint": "2692 FE0F",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e0-7-hammer-and-wrench",
+    "character": "🛠️",
+    "unicodeName": "E0.7 hammer and wrench",
+    "codePoint": "1F6E0 FE0F",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e0-7-dagger",
+    "character": "🗡️",
+    "unicodeName": "E0.7 dagger",
+    "codePoint": "1F5E1 FE0F",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e1-0-crossed-swords",
+    "character": "⚔️",
+    "unicodeName": "E1.0 crossed swords",
+    "codePoint": "2694 FE0F",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e0-6-bomb",
+    "character": "💣",
+    "unicodeName": "E0.6 bomb",
+    "codePoint": "1F4A3",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e13-0-boomerang",
+    "character": "🪃",
+    "unicodeName": "E13.0 boomerang",
+    "codePoint": "1FA83",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e1-0-bow-and-arrow",
+    "character": "🏹",
+    "unicodeName": "E1.0 bow and arrow",
+    "codePoint": "1F3F9",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e0-7-shield",
+    "character": "🛡️",
+    "unicodeName": "E0.7 shield",
+    "codePoint": "1F6E1 FE0F",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e13-0-carpentry-saw",
+    "character": "🪚",
+    "unicodeName": "E13.0 carpentry saw",
+    "codePoint": "1FA9A",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e0-6-wrench",
+    "character": "🔧",
+    "unicodeName": "E0.6 wrench",
+    "codePoint": "1F527",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e13-0-screwdriver",
+    "character": "🪛",
+    "unicodeName": "E13.0 screwdriver",
+    "codePoint": "1FA9B",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e0-6-nut-and-bolt",
+    "character": "🔩",
+    "unicodeName": "E0.6 nut and bolt",
+    "codePoint": "1F529",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e1-0-gear",
+    "character": "⚙️",
+    "unicodeName": "E1.0 gear",
+    "codePoint": "2699 FE0F",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e0-7-clamp",
+    "character": "🗜️",
+    "unicodeName": "E0.7 clamp",
+    "codePoint": "1F5DC FE0F",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e1-0-balance-scale",
+    "character": "⚖️",
+    "unicodeName": "E1.0 balance scale",
+    "codePoint": "2696 FE0F",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e12-0-white-cane",
+    "character": "🦯",
+    "unicodeName": "E12.0 white cane",
+    "codePoint": "1F9AF",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e0-6-link",
+    "character": "🔗",
+    "unicodeName": "E0.6 link",
+    "codePoint": "1F517",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e0-7-chains",
+    "character": "⛓️",
+    "unicodeName": "E0.7 chains",
+    "codePoint": "26D3 FE0F",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e13-0-hook",
+    "character": "🪝",
+    "unicodeName": "E13.0 hook",
+    "codePoint": "1FA9D",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e11-0-toolbox",
+    "character": "🧰",
+    "unicodeName": "E11.0 toolbox",
+    "codePoint": "1F9F0",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e11-0-magnet",
+    "character": "🧲",
+    "unicodeName": "E11.0 magnet",
+    "codePoint": "1F9F2",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e13-0-ladder",
+    "character": "🪜",
+    "unicodeName": "E13.0 ladder",
+    "codePoint": "1FA9C",
+    "group": "objects",
+    "subGroup": "tool"
+  },
+  {
+    "slug": "e1-0-alembic",
+    "character": "⚗️",
+    "unicodeName": "E1.0 alembic",
+    "codePoint": "2697 FE0F",
+    "group": "objects",
+    "subGroup": "science"
+  },
+  {
+    "slug": "e11-0-test-tube",
+    "character": "🧪",
+    "unicodeName": "E11.0 test tube",
+    "codePoint": "1F9EA",
+    "group": "objects",
+    "subGroup": "science"
+  },
+  {
+    "slug": "e11-0-petri-dish",
+    "character": "🧫",
+    "unicodeName": "E11.0 petri dish",
+    "codePoint": "1F9EB",
+    "group": "objects",
+    "subGroup": "science"
+  },
+  {
+    "slug": "e11-0-dna",
+    "character": "🧬",
+    "unicodeName": "E11.0 dna",
+    "codePoint": "1F9EC",
+    "group": "objects",
+    "subGroup": "science"
+  },
+  {
+    "slug": "e1-0-microscope",
+    "character": "🔬",
+    "unicodeName": "E1.0 microscope",
+    "codePoint": "1F52C",
+    "group": "objects",
+    "subGroup": "science"
+  },
+  {
+    "slug": "e1-0-telescope",
+    "character": "🔭",
+    "unicodeName": "E1.0 telescope",
+    "codePoint": "1F52D",
+    "group": "objects",
+    "subGroup": "science"
+  },
+  {
+    "slug": "e0-6-satellite-antenna",
+    "character": "📡",
+    "unicodeName": "E0.6 satellite antenna",
+    "codePoint": "1F4E1",
+    "group": "objects",
+    "subGroup": "science"
+  },
+  {
+    "slug": "e0-6-syringe",
+    "character": "💉",
+    "unicodeName": "E0.6 syringe",
+    "codePoint": "1F489",
+    "group": "objects",
+    "subGroup": "medical"
+  },
+  {
+    "slug": "e12-0-drop-of-blood",
+    "character": "🩸",
+    "unicodeName": "E12.0 drop of blood",
+    "codePoint": "1FA78",
+    "group": "objects",
+    "subGroup": "medical"
+  },
+  {
+    "slug": "e0-6-pill",
+    "character": "💊",
+    "unicodeName": "E0.6 pill",
+    "codePoint": "1F48A",
+    "group": "objects",
+    "subGroup": "medical"
+  },
+  {
+    "slug": "e12-0-adhesive-bandage",
+    "character": "🩹",
+    "unicodeName": "E12.0 adhesive bandage",
+    "codePoint": "1FA79",
+    "group": "objects",
+    "subGroup": "medical"
+  },
+  {
+    "slug": "e14-0-crutch",
+    "character": "🩼",
+    "unicodeName": "E14.0 crutch",
+    "codePoint": "1FA7C",
+    "group": "objects",
+    "subGroup": "medical"
+  },
+  {
+    "slug": "e12-0-stethoscope",
+    "character": "🩺",
+    "unicodeName": "E12.0 stethoscope",
+    "codePoint": "1FA7A",
+    "group": "objects",
+    "subGroup": "medical"
+  },
+  {
+    "slug": "e14-0-x-ray",
+    "character": "🩻",
+    "unicodeName": "E14.0 x-ray",
+    "codePoint": "1FA7B",
+    "group": "objects",
+    "subGroup": "medical"
+  },
+  {
+    "slug": "e0-6-door",
+    "character": "🚪",
+    "unicodeName": "E0.6 door",
+    "codePoint": "1F6AA",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e13-0-elevator",
+    "character": "🛗",
+    "unicodeName": "E13.0 elevator",
+    "codePoint": "1F6D7",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e13-0-mirror",
+    "character": "🪞",
+    "unicodeName": "E13.0 mirror",
+    "codePoint": "1FA9E",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e13-0-window",
+    "character": "🪟",
+    "unicodeName": "E13.0 window",
+    "codePoint": "1FA9F",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e0-7-bed",
+    "character": "🛏️",
+    "unicodeName": "E0.7 bed",
+    "codePoint": "1F6CF FE0F",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e0-7-couch-and-lamp",
+    "character": "🛋️",
+    "unicodeName": "E0.7 couch and lamp",
+    "codePoint": "1F6CB FE0F",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e12-0-chair",
+    "character": "🪑",
+    "unicodeName": "E12.0 chair",
+    "codePoint": "1FA91",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e0-6-toilet",
+    "character": "🚽",
+    "unicodeName": "E0.6 toilet",
+    "codePoint": "1F6BD",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e13-0-plunger",
+    "character": "🪠",
+    "unicodeName": "E13.0 plunger",
+    "codePoint": "1FAA0",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e1-0-shower",
+    "character": "🚿",
+    "unicodeName": "E1.0 shower",
+    "codePoint": "1F6BF",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e1-0-bathtub",
+    "character": "🛁",
+    "unicodeName": "E1.0 bathtub",
+    "codePoint": "1F6C1",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e13-0-mouse-trap",
+    "character": "🪤",
+    "unicodeName": "E13.0 mouse trap",
+    "codePoint": "1FAA4",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e12-0-razor",
+    "character": "🪒",
+    "unicodeName": "E12.0 razor",
+    "codePoint": "1FA92",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e11-0-lotion-bottle",
+    "character": "🧴",
+    "unicodeName": "E11.0 lotion bottle",
+    "codePoint": "1F9F4",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e11-0-safety-pin",
+    "character": "🧷",
+    "unicodeName": "E11.0 safety pin",
+    "codePoint": "1F9F7",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e11-0-broom",
+    "character": "🧹",
+    "unicodeName": "E11.0 broom",
+    "codePoint": "1F9F9",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e11-0-basket",
+    "character": "🧺",
+    "unicodeName": "E11.0 basket",
+    "codePoint": "1F9FA",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e11-0-roll-of-paper",
+    "character": "🧻",
+    "unicodeName": "E11.0 roll of paper",
+    "codePoint": "1F9FB",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e13-0-bucket",
+    "character": "🪣",
+    "unicodeName": "E13.0 bucket",
+    "codePoint": "1FAA3",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e11-0-soap",
+    "character": "🧼",
+    "unicodeName": "E11.0 soap",
+    "codePoint": "1F9FC",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e14-0-bubbles",
+    "character": "🫧",
+    "unicodeName": "E14.0 bubbles",
+    "codePoint": "1FAE7",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e13-0-toothbrush",
+    "character": "🪥",
+    "unicodeName": "E13.0 toothbrush",
+    "codePoint": "1FAA5",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e11-0-sponge",
+    "character": "🧽",
+    "unicodeName": "E11.0 sponge",
+    "codePoint": "1F9FD",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e11-0-fire-extinguisher",
+    "character": "🧯",
+    "unicodeName": "E11.0 fire extinguisher",
+    "codePoint": "1F9EF",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e3-0-shopping-cart",
+    "character": "🛒",
+    "unicodeName": "E3.0 shopping cart",
+    "codePoint": "1F6D2",
+    "group": "objects",
+    "subGroup": "household"
+  },
+  {
+    "slug": "e0-6-cigarette",
+    "character": "🚬",
+    "unicodeName": "E0.6 cigarette",
+    "codePoint": "1F6AC",
+    "group": "objects",
+    "subGroup": "other-object"
+  },
+  {
+    "slug": "e1-0-coffin",
+    "character": "⚰️",
+    "unicodeName": "E1.0 coffin",
+    "codePoint": "26B0 FE0F",
+    "group": "objects",
+    "subGroup": "other-object"
+  },
+  {
+    "slug": "e13-0-headstone",
+    "character": "🪦",
+    "unicodeName": "E13.0 headstone",
+    "codePoint": "1FAA6",
+    "group": "objects",
+    "subGroup": "other-object"
+  },
+  {
+    "slug": "e1-0-funeral-urn",
+    "character": "⚱️",
+    "unicodeName": "E1.0 funeral urn",
+    "codePoint": "26B1 FE0F",
+    "group": "objects",
+    "subGroup": "other-object"
+  },
+  {
+    "slug": "e11-0-nazar-amulet",
+    "character": "🧿",
+    "unicodeName": "E11.0 nazar amulet",
+    "codePoint": "1F9FF",
+    "group": "objects",
+    "subGroup": "other-object"
+  },
+  {
+    "slug": "e14-0-hamsa",
+    "character": "🪬",
+    "unicodeName": "E14.0 hamsa",
+    "codePoint": "1FAAC",
+    "group": "objects",
+    "subGroup": "other-object"
+  },
+  {
+    "slug": "e0-6-moai",
+    "character": "🗿",
+    "unicodeName": "E0.6 moai",
+    "codePoint": "1F5FF",
+    "group": "objects",
+    "subGroup": "other-object"
+  },
+  {
+    "slug": "e13-0-placard",
+    "character": "🪧",
+    "unicodeName": "E13.0 placard",
+    "codePoint": "1FAA7",
+    "group": "objects",
+    "subGroup": "other-object"
+  },
+  {
+    "slug": "e14-0-identification-card",
+    "character": "🪪",
+    "unicodeName": "E14.0 identification card",
+    "codePoint": "1FAAA",
+    "group": "objects",
+    "subGroup": "other-object"
+  }
+]
