@@ -7,6 +7,7 @@ import { useUserStore } from "@/stores";
 import clsx from "clsx";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import { MergeConversation } from "..";
 
 const quickContent = (
   content: string,
@@ -25,17 +26,11 @@ const quickContent = (
   return `${displayName}: ${content}`;
 };
 
-interface ConversationProps extends IConversation {
-  memberCount?: number;
-  otherUser: IUser;
-}
-
-const Conversation: FC<ConversationProps> = ({
+const Conversation: FC<MergeConversation> = ({
   photoURL,
   type,
   name,
   lastMessage,
-  memberCount,
   otherUser,
   id,
 }) => {

@@ -1,12 +1,12 @@
 import clsx from "clsx";
-import { FC, memo, useState } from "react";
+import { FC, memo, useCallback, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import moment from "moment";
 import { Button, Tooltip } from "@heroui/react";
 import { SmileIcon } from "lucide-react";
 
 import { IMessage } from "@/interfaces";
-import { useUserStore } from "@/stores";
+import { useReplyStore, useUserStore } from "@/stores";
 import ContextMenu from "./ContextMenu";
 
 interface MessageProps {
@@ -22,9 +22,24 @@ const Message: FC<MessageProps> = ({
   isContinuously,
   isSameTime,
 }) => {
-  const { user } = useUserStore();
   const [isHover, setIsHover] = useState(false);
+  const { user } = useUserStore();
+  const { setReply } = useReplyStore();
   const isMe = user?.id === sender?.id;
+
+  const handleCopy = useCallback(() => {
+    navigator.clipboard.writeText(content);
+  }, [content]);
+
+  const handleReply = useCallback(() => {
+    setReply({ content, displayName: sender?.displayName as string });
+  }, [content, sender?.displayName]);
+
+  const handleEdit = useCallback(() => {}, []);
+
+  const handleDelete = useCallback(() => {}, []);
+
+  const handleDeleteForMe = useCallback(() => {}, []);
 
   return (
     <motion.div
@@ -43,7 +58,13 @@ const Message: FC<MessageProps> = ({
         onMouseLeave={() => setIsHover(false)}
         className={clsx("flex items-center gap-3", isMe && "flex-row-reverse")}
       >
-        <ContextMenu content={content}>
+        <ContextMenu
+          onCopy={handleCopy}
+          onEdit={handleEdit}
+          onReply={handleReply}
+          onDelete={handleDelete}
+          onDeleteForMe={handleDeleteForMe}
+        >
           <motion.div
             whileHover={{ scale: 0.95, opacity: 0.9 }}
             className={clsx(

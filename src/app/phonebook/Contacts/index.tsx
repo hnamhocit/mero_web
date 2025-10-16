@@ -10,14 +10,12 @@ interface ContactsProps {
 
 const Contacts: FC<ContactsProps> = ({ q }) => {
   const [friends, setFriends] = useState<IUser[]>([]);
-  const [filteredFriends, setFilteredFriends] = useState<IUser[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const fetchFriends = async () => {
       const response = await api.get("/users/me/friends");
       setFriends(response.data);
-      setFilteredFriends(response.data);
       setIsLoading(false);
     };
 
@@ -27,7 +25,6 @@ const Contacts: FC<ContactsProps> = ({ q }) => {
   useEffect(() => {
     const handleNewFriend = (friend: IUser) => {
       setFriends((prev) => [...prev, friend]);
-      setFilteredFriends((prev) => [...prev, friend]);
     };
 
     socket.on("friend:new", handleNewFriend);
@@ -39,11 +36,11 @@ const Contacts: FC<ContactsProps> = ({ q }) => {
 
   const grouped = useMemo(() => {
     return groupUsersByFirstLetter(
-      filteredFriends.filter((f) =>
+      friends.filter((f) =>
         f.displayName.toLocaleLowerCase().includes(q.toLocaleLowerCase())
       )
     );
-  }, [filteredFriends, q]);
+  }, [friends, q]);
 
   if (isLoading) {
     return <div>Loading...</div>;

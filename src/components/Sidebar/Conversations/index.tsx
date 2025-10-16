@@ -1,4 +1,4 @@
-import { IConversation } from "@/interfaces";
+import { IConversation, IUser } from "@/interfaces";
 import React, { FC, memo, useEffect, useMemo, useState } from "react";
 
 import Conversation from "./Conversation";
@@ -8,8 +8,12 @@ interface ConversationsProps {
   q: string;
 }
 
+export interface MergeConversation extends IConversation {
+  otherUser?: IUser;
+}
+
 const Conversations: FC<ConversationsProps> = ({ q }) => {
-  const [conversations, setConversations] = useState<IConversation[]>([]);
+  const [conversations, setConversations] = useState<MergeConversation[]>([]);
 
   useEffect(() => {
     const fetchConversations = async () => {
