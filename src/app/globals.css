@@ -1,27 +1,28 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 @plugin './hero.ts';
 /* Note: You may need to change the path to fit your project structure */
 @source '../../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-    --color-dark: #1c1d21;
-    --color-primary: #9360e3;
-    --color-semidark: #222329;
-    --color-semilight: #2c2d33;
+  --color-dark: #1c1d21;
+  --color-primary: #9360e3;
+  --color-semidark: #222329;
+  --color-semilight: #2c2d33;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 @layer utilities {
-    .no-scrollbar::-webkit-scrollbar {
-        display: none;
-    }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
 
-    .no-scrollbar {
-        -ms-overflow-x: hidden;
-        scrollbar-width: none;
-    }
+  .no-scrollbar {
+    -ms-overflow-x: hidden;
+    scrollbar-width: none;
+  }
 }

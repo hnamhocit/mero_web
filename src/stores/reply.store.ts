@@ -1,6 +1,7 @@
 import { create } from "zustand";
 
 interface Reply {
+  id: number;
   displayName: string;
   content: string;
 }

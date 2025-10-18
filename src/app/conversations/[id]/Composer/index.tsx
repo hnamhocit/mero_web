@@ -1,84 +1,99 @@
-import { Button } from "@heroui/react";
+import { Button, Textarea } from "@heroui/react";
 import {
   AtSignIcon,
   CloudUploadIcon,
   MicIcon,
   QrCodeIcon,
   StickerIcon,
+  XIcon,
 } from "lucide-react";
-import { Dispatch, FC, SetStateAction, memo, useState } from "react";
+import { FC, RefObject, memo, useState } from "react";
 
 import Emoji from "./Emoji";
-import { IMessage } from "@/interfaces";
-import { socket } from "@/config";
+import { useReplyStore } from "@/stores";
+import { useMessages } from "@/hooks";
 
 interface ComposerProps {
   id: string;
-  setMessages: Dispatch<SetStateAction<IMessage[]>>;
+  ref: RefObject<HTMLDivElement | null>;
 }
 
-const Composer: FC<ComposerProps> = ({ setMessages, id }) => {
+const Composer: FC<ComposerProps> = ({ ref, id }) => {
   const [content, setContent] = useState("");
-  const [isDisabled, setIsDisabled] = useState(false);
-
-  const handleSendMessage = async () => {
-    setIsDisabled(true);
-
-    const response = await socket.emitWithAck("message", {
-      cmd: "send",
-      args: {
-        content,
-        conversationId: Number(id),
-      },
-    });
-    setMessages((prev) => [...prev, response.data]);
-
-    setContent("");
-    setIsDisabled(false);
-  };
+  const { reply, setReply } = useReplyStore();
+  const { isDisabled, handleSendMessage } = useMessages(id);
 
   return (
-    <div className="absolute bottom-0 left-0 h-16 w-full p-2 flex items-center gap-3">
-      <div className="flex items-center gap-3 p-2 bg-semilight rounded-xl">
-        <Button isIconOnly size="sm" variant="light">
-          <QrCodeIcon size={20} />
-        </Button>
+    <div
+      ref={ref}
+      className="absolute bottom-0 left-0 w-full space-y-3 p-2 z-20"
+    >
+      {reply && (
+        <div className="relative py-2 px-3 rounded-2xl bg-semilight">
+          <div className="absolute top-0 right-0">
+            <Button
+              isIconOnly
+              size="sm"
+              variant="light"
+              onPress={() => setReply(null)}
+            >
+              <XIcon size={18} />
+            </Button>
+          </div>
 
-        <Button isIconOnly size="sm" variant="light">
-          <CloudUploadIcon size={20} />
-        </Button>
+          <div className="text-neutral-500 text-sm mb-1">
+            {reply.displayName}
+          </div>
 
-        <Button isIconOnly size="sm" variant="light">
-          <StickerIcon size={20} />
-        </Button>
+          <div className="border-l-2 line-clamp-3 py-1 bg-semidark rounded-r-md pl-4">
+            {reply.content}
+          </div>
+        </div>
+      )}
 
-        <Button isIconOnly size="sm" variant="light">
-          <AtSignIcon size={20} />
-        </Button>
-      </div>
+      <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 p-2 bg-semilight rounded-xl">
+          <Button isIconOnly size="sm" variant="light">
+            <QrCodeIcon size={20} />
+          </Button>
 
-      <div className="flex-1 flex items-center gap-3 py-2 px-4 bg-semilight rounded-full">
-        <Button isIconOnly size="sm" variant="light">
-          <MicIcon size={20} />
-        </Button>
+          <Button isIconOnly size="sm" variant="light">
+            <CloudUploadIcon size={20} />
+          </Button>
 
-        <input
-          value={content}
-          onChange={(e) => {
-            const value = e.target.value;
-            if (value.startsWith(" ")) return;
-            setContent(value);
-          }}
-          onKeyDown={(e) => {
-            if (e.key === "Enter" && !isDisabled) {
-              handleSendMessage();
-            }
-          }}
-          placeholder="Enter here"
-          className="block w-full outline-none"
-        />
+          <Button isIconOnly size="sm" variant="light">
+            <StickerIcon size={20} />
+          </Button>
 
-        <Emoji setContent={setContent} />
+          <Button isIconOnly size="sm" variant="light">
+            <AtSignIcon size={20} />
+          </Button>
+        </div>
+
+        <div className="flex-1 flex items-center gap-3 py-2 px-4 bg-semilight rounded-full">
+          <Button isIconOnly size="sm" variant="light">
+            <MicIcon size={20} />
+          </Button>
+
+          <Textarea
+            value={content}
+            onChange={(e) => {
+              const value = e.target.value;
+              if (value.startsWith(" ")) return;
+              setContent(value);
+            }}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" && !isDisabled) {
+                handleSendMessage(content, () => setContent(""));
+              }
+            }}
+            maxRows={1}
+            radius="full"
+            placeholder="Enter here"
+          />
+
+          <Emoji setContent={setContent} />
+        </div>
       </div>
     </div>
   );

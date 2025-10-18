@@ -15,6 +15,7 @@ interface ContextMenuProps {
   onReply: () => void;
   onDelete: () => void;
   onDeleteForMe: () => void;
+  isMe: boolean;
 }
 
 const ContextMenu: FC<ContextMenuProps> = ({
@@ -24,6 +25,7 @@ const ContextMenu: FC<ContextMenuProps> = ({
   onReply,
   onDelete,
   onDeleteForMe,
+  isMe,
 }) => {
   return (
     <CM.Root>
@@ -40,15 +42,19 @@ const ContextMenu: FC<ContextMenuProps> = ({
           Copy
         </CM.Item>
 
-        <CM.Item onClick={onEdit}>
-          <PencilIcon size={18} />
-          Edit
-        </CM.Item>
+        {isMe && (
+          <>
+            <CM.Item onClick={onEdit}>
+              <PencilIcon size={18} />
+              Edit
+            </CM.Item>
 
-        <CM.Item color="red" onClick={onDelete}>
-          <Trash2Icon size={18} />
-          Delete
-        </CM.Item>
+            <CM.Item color="red" onClick={onDelete}>
+              <Trash2Icon size={18} />
+              Delete
+            </CM.Item>
+          </>
+        )}
 
         <CM.Item color="red" onClick={onDeleteForMe}>
           <TrashIcon size={18} />

@@ -1,25 +1,12 @@
 "use client";
 
-import { use, useEffect, useState } from "react";
+import { use } from "react";
 
-import { socket } from "@/config";
-import { IMessage } from "@/interfaces";
 import Composer from "./Composer";
 import Loading from "@/components/Loading";
 import Message from "./Message";
-
-function isSameMinute(a: Date, b: Date) {
-  a = new Date(a);
-  b = new Date(b);
-
-  return (
-    a.getFullYear() === b.getFullYear() &&
-    a.getMonth() === b.getMonth() &&
-    a.getDate() === b.getDate() &&
-    a.getHours() === b.getHours() &&
-    a.getMinutes() === b.getMinutes()
-  );
-}
+import { isSameMinute } from "@/utils";
+import { useMessages, useResizeObserver } from "@/hooks";
 
 const ConversationDetail = ({
   params,
@@ -27,36 +14,9 @@ const ConversationDetail = ({
   params: Promise<{ id: string }>;
 }) => {
   const { id } = use(params);
-  const [messages, setMessages] = useState<IMessage[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    const fetchConversation = async () => {
-      const response = await socket.emitWithAck("message", {
-        cmd: "getConversationMessages",
-        args: {
-          conversationId: Number(id),
-        },
-      });
-
-      setMessages(response.data);
-      setIsLoading(false);
-    };
-
-    fetchConversation();
-  }, [id]);
-
-  useEffect(() => {
-    const handleNewMessage = (message: IMessage) => {
-      setMessages((prev) => [...prev, message]);
-    };
-
-    socket.on("message:new", handleNewMessage);
-
-    return () => {
-      socket.off("message:new", handleNewMessage);
-    };
-  }, []);
+  const { isLoading, handleDelete, handleDeleteForMe, messages } =
+    useMessages(id);
+  const { height, ref } = useResizeObserver();
 
   if (isLoading) return <Loading />;
 
@@ -64,7 +24,12 @@ const ConversationDetail = ({
     <div className="h-screen relative bg-semidark">
       {/* <Header /> */}
 
-      <div className="p-4 h-[calc(100vh-64px)] overflow-y-scroll no-scrollbar">
+      <div
+        className="p-4 overflow-y-scroll no-scrollbar"
+        style={{
+          maxHeight: `calc(100% - ${height}px)`,
+        }}
+      >
         {messages.map((message, i) => {
           const nextMessage = messages[i + 1];
           const prevMessage = messages[i - 1];
@@ -81,12 +46,14 @@ const ConversationDetail = ({
               message={message}
               isContinuously={isContinuously}
               isSameTime={isSameTime}
+              onDelete={handleDelete}
+              onDeleteForMe={handleDeleteForMe}
             />
           );
         })}
       </div>
 
-      <Composer setMessages={setMessages} id={id} />
+      <Composer ref={ref} id={id} />
     </div>
   );
 };
