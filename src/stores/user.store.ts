@@ -2,13 +2,17 @@ import { create } from "zustand";
 
 import { api } from "@/config/api";
 import { IResponse, ITokens, IUser } from "@/interfaces";
-import { JwtUtils } from "@/utils";
 
 interface UserStore {
   user: IUser | null;
+  accessToken: string | null;
+  isInitialized: boolean;
   isLoading: boolean;
 
+  setAccessToken: (accessToken: string) => void;
   setUser: (user: IUser | null) => void;
+
+  bootstrapApp: () => Promise<void>;
   login: (data: any) => Promise<void>;
   register: (data: any) => Promise<void>;
   getProfile: () => Promise<void>;
@@ -18,55 +22,57 @@ interface UserStore {
 
 export const useUserStore = create<UserStore>((set, get) => ({
   user: null,
+  accessToken: null,
   isLoading: false,
+  isInitialized: false,
 
   setUser: (user: IUser | null) => set({ user }),
+  setAccessToken: (accessToken) => set({ accessToken }),
 
   login: async (data) => {
     set({ isLoading: true });
 
-    const { data: tokens }: IResponse<ITokens> = await api.post(
-      "/auth/login",
-      data
-    );
+    const {
+      data: { accessToken },
+    }: IResponse<{ accessToken: string }> = await api.post("/auth/login", data);
 
-    JwtUtils.setTokens(tokens.accessToken, tokens.refreshToken);
+    set({ accessToken });
 
-    const { data: user }: IResponse<IUser> = await api.get("/users/me");
-
-    set({ user, isLoading: false });
+    await get().getProfile();
+    set({ isLoading: false });
   },
 
   register: async (data) => {
     set({ isLoading: true });
 
-    const { data: tokens }: IResponse<ITokens> = await api.post(
+    const {
+      data: { accessToken },
+    }: IResponse<{ accessToken: string }> = await api.post(
       "/auth/register",
       data
     );
 
-    JwtUtils.setTokens(tokens.accessToken, tokens.refreshToken);
+    set({ accessToken });
 
-    const { data: user }: IResponse<IUser> = await api.get("/users/me");
-
-    set({ user, isLoading: false });
+    await get().getProfile();
+    set({ isLoading: false });
   },
 
   getProfile: async () => {
-    set({ isLoading: true });
-
     const { data: user }: IResponse<IUser> = await api.get("/users/me");
-
-    set({ user, isLoading: false });
+    set({ user });
   },
 
   logout: async () => {
     set({ isLoading: true });
 
-    await api.get("/auth/logout");
-    JwtUtils.removeTokens();
+    try {
+      await api.get("/auth/logout");
+    } catch (error) {
+      console.error("Logout failed, proceeding client-side:", error);
+    }
 
-    set({ user: null, isLoading: false });
+    set({ user: null, accessToken: null, isLoading: false });
   },
 
   verifyEmail: async () => {
@@ -74,5 +80,23 @@ export const useUserStore = create<UserStore>((set, get) => ({
 
     const { user } = get();
     set({ user: { ...user!, isEmailVerified: true } });
+  },
+
+  bootstrapApp: async () => {
+    if (get().isInitialized) return;
+
+    try {
+      const { data } = await api.post("/auth/refresh");
+      const newAccessToken = data.accessToken;
+
+      if (newAccessToken) {
+        set({ accessToken: newAccessToken });
+        await get().getProfile();
+      }
+    } catch (error) {
+      console.log("No valid session found on startup.");
+    } finally {
+      set({ isInitialized: true });
+    }
   },
 }));

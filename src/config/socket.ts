@@ -1,31 +1,12 @@
 import { io, Socket } from "socket.io-client";
-import { JwtUtils } from "@/utils";
+import { useUserStore } from "@/stores";
 
-let refreshing = false;
-
-const refreshAccessToken = async () => {
-  if (refreshing) return null;
-  refreshing = true;
-
-  try {
-    await JwtUtils.refreshAccessToken();
-  } catch (e) {
-    console.error("Failed to refresh token:", e);
-    return null;
-  } finally {
-    refreshing = false;
-  }
-};
-
-let { accessToken } = JwtUtils.getTokens();
-
-if (!accessToken || JwtUtils.isTokenExpired(accessToken)) {
-  console.warn("Access token invalid or expired at startup.");
-  accessToken = null;
-}
+let currentAccessToken = useUserStore.getState().accessToken;
 
 export const socket: Socket = io("http://localhost:8080", {
-  auth: { token: accessToken },
+  auth: (cb) => {
+    cb({ token: useUserStore.getState().accessToken });
+  },
   transports: ["websocket"],
   reconnection: true,
   reconnectionAttempts: 10,
@@ -34,15 +15,7 @@ export const socket: Socket = io("http://localhost:8080", {
 
 socket.on("connect_error", async (err) => {
   if (err.message.includes("Invalid or expired token")) {
-    console.log("🔄 Token expired, refreshing...");
-    const newAccessToken = await refreshAccessToken();
-    if (newAccessToken) {
-      socket.io.opts.auth = { token: newAccessToken };
-      socket.connect();
-    } else {
-      console.error("Token refresh failed, disconnecting socket");
-      socket.disconnect();
-    }
+    console.log("🔄 Socket token expired. Waiting for new token...");
   }
 });
 

@@ -1,20 +1,14 @@
 import Auth from "@/components/Auth";
-import ConfirmEmail from "@/components/ComfirmEmail";
+import ConfirmEmail from "@/components/ConfirmEmail";
 import Loading from "@/components/Loading";
 import { useUserStore } from "@/stores";
-import { JwtUtils } from "@/utils";
 import { ReactNode, useEffect } from "react";
 
 const AuthProvider = ({ children }: { children: ReactNode }) => {
-  const { isLoading, user, getProfile } = useUserStore();
+  const { isLoading, user, bootstrapApp } = useUserStore();
 
   useEffect(() => {
-    if (
-      typeof window !== "undefined" &&
-      localStorage.getItem(JwtUtils.keys.at)
-    ) {
-      getProfile();
-    }
+    bootstrapApp();
   }, []);
 
   if (isLoading) {

@@ -15,7 +15,7 @@ interface MessageProps {
   message: IMessage;
   isContinuously: boolean;
   isSameTime: boolean;
-  onDelete: (id: number) => Promise<void>;
+  onDelete: (id: number) => void;
   onDeleteForMe: (id: number) => Promise<void>;
 }
 
