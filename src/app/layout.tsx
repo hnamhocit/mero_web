@@ -1,5 +1,5 @@
-import "./globals.css";
 import "@radix-ui/themes/styles.css";
+import "./globals.css";
 
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";

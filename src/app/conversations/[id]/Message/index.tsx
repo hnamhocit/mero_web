@@ -1,47 +1,29 @@
 import clsx from "clsx";
-import { FC, memo, useCallback, useState } from "react";
+import { FC, memo, useMemo, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import moment from "moment";
 import { Avatar, AvatarGroup, Button, Tooltip } from "@heroui/react";
 import { SmileIcon } from "lucide-react";
-import Markdown from "react-markdown";
-import remarkGfm from "remark-gfm";
 
 import { IMessage } from "@/interfaces";
-import { useReplyStore, useUserStore } from "@/stores";
-import ContextMenu from "./ContextMenu";
+import { useMessageStore, useUserStore } from "@/stores";
+import Content from "./Content";
 
 interface MessageProps {
   message: IMessage;
   isContinuously: boolean;
   isSameTime: boolean;
-  onDelete: (id: number) => void;
-  onDeleteForMe: (id: number) => Promise<void>;
 }
 
 const emojis = ["🔥", "💛", "😂", "😮", "😢", "😡"];
 
-const Message: FC<MessageProps> = ({
-  message: { id, content, sender, createdAt },
-  isContinuously,
-  isSameTime,
-  onDelete,
-  onDeleteForMe,
-}) => {
+const Message: FC<MessageProps> = ({ message, isContinuously, isSameTime }) => {
   const [isHover, setIsHover] = useState(false);
   const { user } = useUserStore();
-  const { setReply } = useReplyStore();
-  const isMe = user?.id === sender?.id;
+  const { setMessage } = useMessageStore();
 
-  const handleCopy = useCallback(() => {
-    navigator.clipboard.writeText(content);
-  }, [content]);
-
-  const handleReply = useCallback(() => {
-    setReply({ id, content, displayName: sender?.displayName as string });
-  }, [content, sender?.displayName]);
-
-  const handleEdit = useCallback(() => {}, []);
+  const { id, content, sender, createdAt, reply } = message;
+  const isMe = useMemo(() => user?.id === sender?.id, [user?.id, sender?.id]);
 
   return (
     <motion.div
@@ -61,33 +43,13 @@ const Message: FC<MessageProps> = ({
         className={clsx("flex items-center gap-3", isMe && "flex-row-reverse")}
       >
         <div className="space-y-2">
-          <ContextMenu
+          <Content
+            id={id}
             isMe={isMe}
-            onCopy={handleCopy}
-            onEdit={handleEdit}
-            onReply={handleReply}
-            onDelete={() => onDelete(id)}
-            onDeleteForMe={() => onDeleteForMe(id)}
-          >
-            <div
-              className={clsx(
-                "relative py-2 px-4 !text-white select-none cursor-pointer space-y-1 rounded-2xl min-w-16 w-fit max-w-120",
-                isMe
-                  ? "text-right rounded-tr-none bg-purple-500"
-                  : "bg-indigo-500 rounded-tl-none"
-              )}
-            >
-              <div className="prose">
-                <Markdown remarkPlugins={[remarkGfm]}>{content}</Markdown>
-              </div>
-
-              <div className={clsx(!isMe && "flex justify-end")}>
-                <div className="p-1 rounded-full text-sm shadow w-fit bg-white text-neutral-500">
-                  🔥💛😂 3.2k+
-                </div>
-              </div>
-            </div>
-          </ContextMenu>
+            reply={reply}
+            content={content}
+            onOpen={() => setMessage(message)}
+          />
 
           <div className={clsx(isMe && "flex justify-end")}>
             <AvatarGroup

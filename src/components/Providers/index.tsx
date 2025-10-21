@@ -9,14 +9,14 @@ import AuthProvider from "./AuthProvider";
 
 const Providers = ({ children }: { children: ReactNode }) => {
   return (
-    <Theme>
-      <HeroUIProvider>
+    <HeroUIProvider>
+      <Theme>
         <ThemeProvider />
         <ToastProvider />
 
         <AuthProvider>{children}</AuthProvider>
-      </HeroUIProvider>
-    </Theme>
+      </Theme>
+    </HeroUIProvider>
   );
 };
 

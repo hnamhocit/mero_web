@@ -11,7 +11,7 @@ import {
   UtensilsCrossedIcon,
 } from "lucide-react";
 import clsx from "clsx";
-import { Dispatch, FC, SetStateAction, memo, useState } from "react";
+import { useState } from "react";
 import { Button, Input, Tooltip } from "@heroui/react";
 
 import categories from "@/assets/json/emoji/categories.json";
@@ -24,6 +24,7 @@ import objects from "@/assets/json/emoji/categories/objects.json";
 import peopleBody from "@/assets/json/emoji/categories/people-body.json";
 import symbols from "@/assets/json/emoji/categories/symbols.json";
 import travelPlaces from "@/assets/json/emoji/categories/travel-places.json";
+import { useComposerStore } from "@/stores";
 
 function CategoryIcon(slug: string) {
   switch (slug) {
@@ -69,12 +70,9 @@ function getEmojiList(slug: string) {
   }
 }
 
-interface EmojiProps {
-  setContent: Dispatch<SetStateAction<string>>;
-}
-
-const Emoji: FC<EmojiProps> = ({ setContent }) => {
+const Emoji = () => {
   const [activeSlug, setActiveSlug] = useState("smileys-emotion");
+  const { setContent, content } = useComposerStore();
 
   return (
     <Tooltip
@@ -104,7 +102,7 @@ const Emoji: FC<EmojiProps> = ({ setContent }) => {
             {getEmojiList(activeSlug).map((emoji) => (
               <button
                 key={emoji.character}
-                onClick={() => setContent((prev) => prev + emoji.character)}
+                onClick={() => setContent(content + emoji.character)}
                 className="block p-1 rounded-xl hover:bg-semilight transition-colors"
               >
                 {emoji.character}
@@ -121,4 +119,4 @@ const Emoji: FC<EmojiProps> = ({ setContent }) => {
   );
 };
 
-export default memo(Emoji);
+export default Emoji;

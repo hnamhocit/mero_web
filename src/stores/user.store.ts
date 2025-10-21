@@ -2,6 +2,7 @@ import { create } from "zustand";
 
 import { api } from "@/config/api";
 import { IResponse, ITokens, IUser } from "@/interfaces";
+import { socket } from "@/config";
 
 interface UserStore {
   user: IUser | null;
@@ -39,7 +40,9 @@ export const useUserStore = create<UserStore>((set, get) => ({
     set({ accessToken });
 
     await get().getProfile();
+
     set({ isLoading: false });
+    socket.connect();
   },
 
   register: async (data) => {
@@ -56,6 +59,8 @@ export const useUserStore = create<UserStore>((set, get) => ({
 
     await get().getProfile();
     set({ isLoading: false });
+
+    socket.connect();
   },
 
   getProfile: async () => {
@@ -73,6 +78,7 @@ export const useUserStore = create<UserStore>((set, get) => ({
     }
 
     set({ user: null, accessToken: null, isLoading: false });
+    socket.disconnect();
   },
 
   verifyEmail: async () => {
@@ -91,7 +97,10 @@ export const useUserStore = create<UserStore>((set, get) => ({
 
       if (newAccessToken) {
         set({ accessToken: newAccessToken });
+
         await get().getProfile();
+
+        socket.connect();
       }
     } catch (error) {
       console.log("No valid session found on startup.");

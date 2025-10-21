@@ -1,9 +1,8 @@
 import { io, Socket } from "socket.io-client";
 import { useUserStore } from "@/stores";
 
-let currentAccessToken = useUserStore.getState().accessToken;
-
 export const socket: Socket = io("http://localhost:8080", {
+  autoConnect: false,
   auth: (cb) => {
     cb({ token: useUserStore.getState().accessToken });
   },

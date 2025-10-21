@@ -1,17 +1,10 @@
-import { Button, Textarea } from "@heroui/react";
-import {
-  AtSignIcon,
-  CloudUploadIcon,
-  MicIcon,
-  QrCodeIcon,
-  StickerIcon,
-  XIcon,
-} from "lucide-react";
-import { FC, RefObject, memo, useState } from "react";
+import { Button } from "@heroui/react";
+import { CornerUpRight, PlusIcon, SendIcon, XIcon } from "lucide-react";
+import { FC, RefObject, memo } from "react";
+import ReactTextareaAutosize from "react-textarea-autosize";
 
-import Emoji from "./Emoji";
-import { useReplyStore } from "@/stores";
-import { useMessages } from "@/hooks";
+import Extensions from "./Extensions";
+import { useComposerStore } from "@/stores";
 
 interface ComposerProps {
   id: string;
@@ -19,80 +12,76 @@ interface ComposerProps {
 }
 
 const Composer: FC<ComposerProps> = ({ ref, id }) => {
-  const [content, setContent] = useState("");
-  const { reply, setReply } = useReplyStore();
-  const { isDisabled, handleSendMessage } = useMessages(id);
+  const {
+    content,
+    setContent,
+    reply,
+    setReply,
+    mode,
+    isDisabled,
+    onSend,
+    isOpenAccessoryBar,
+    onCloseAccessoryBar,
+  } = useComposerStore();
 
   return (
-    <div
-      ref={ref}
-      className="absolute bottom-0 left-0 w-full space-y-3 p-2 z-20"
-    >
-      {reply && (
-        <div className="relative py-2 px-3 rounded-2xl bg-semilight">
-          <div className="absolute top-0 right-0">
-            <Button
-              isIconOnly
-              size="sm"
-              variant="light"
-              onPress={() => setReply(null)}
-            >
-              <XIcon size={18} />
-            </Button>
+    <div ref={ref} className="absolute bottom-0 left-0 w-full p-2 z-20">
+      <div className="p-2 bg-semilight rounded-lg">
+        {isOpenAccessoryBar && (
+          <div className="relative px-2 pb-2 border-b border-neutral-700 mb-2 bg-semilight">
+            {reply && (
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <CornerUpRight className="text-purple-500" size={20} />
+
+                  <div>
+                    Replying{" "}
+                    <span className="font-semibold">@{reply.displayName}</span>
+                  </div>
+                </div>
+
+                <Button
+                  onPress={() => {
+                    setReply(null);
+                    onCloseAccessoryBar();
+                  }}
+                  isIconOnly
+                  size="sm"
+                  variant="light"
+                >
+                  <XIcon size={18} />
+                </Button>
+              </div>
+            )}
           </div>
+        )}
 
-          <div className="text-neutral-500 text-sm mb-1">
-            {reply.displayName}
-          </div>
-
-          <div className="border-l-2 line-clamp-3 py-1 bg-semidark rounded-r-md pl-4">
-            {reply.content}
-          </div>
-        </div>
-      )}
-
-      <div className="flex items-center gap-3">
-        <div className="flex items-center gap-3 p-2 bg-semilight rounded-xl">
-          <Button isIconOnly size="sm" variant="light">
-            <QrCodeIcon size={20} />
+        <div className="flex gap-3 items-start">
+          <Button size="sm" isIconOnly variant="light">
+            <PlusIcon />
           </Button>
 
-          <Button isIconOnly size="sm" variant="light">
-            <CloudUploadIcon size={20} />
-          </Button>
-
-          <Button isIconOnly size="sm" variant="light">
-            <StickerIcon size={20} />
-          </Button>
-
-          <Button isIconOnly size="sm" variant="light">
-            <AtSignIcon size={20} />
-          </Button>
-        </div>
-
-        <div className="flex-1 flex items-center gap-3 py-2 px-4 bg-semilight rounded-full">
-          <Button isIconOnly size="sm" variant="light">
-            <MicIcon size={20} />
-          </Button>
-
-          <Textarea
+          <ReactTextareaAutosize
             value={content}
             onChange={(e) => {
               const value = e.target.value;
               if (value.startsWith(" ")) return;
               setContent(value);
             }}
-            onKeyDown={(e) => {
-              if (e.key === "Enter" && !isDisabled) {
-                handleSendMessage(content, () => setContent(""));
-              }
-            }}
-            maxRows={1}
-            radius="full"
-            placeholder="Enter here"
+            className="block py-1 resize-none w-full bg-transparent outline-none"
           />
 
-          <Emoji setContent={setContent} />
+          <Extensions />
+
+          <Button
+            isLoading={isDisabled}
+            onPress={() => onSend(id)}
+            size="sm"
+            isIconOnly
+            color="primary"
+          >
+            <SendIcon size={20} />
+          </Button>
         </div>
       </div>
     </div>

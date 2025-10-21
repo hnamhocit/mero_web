@@ -7,9 +7,11 @@ export interface IMessage extends IDocument {
   content: string;
   conversationId: number;
   senderId: number;
+  replyId?: number;
 
   conversation?: IConversation;
   sender?: IUser;
+  reply?: IMessage;
 
   conversationAsLast?: IConversation[];
   participantAsLast?: IParticipant[];
